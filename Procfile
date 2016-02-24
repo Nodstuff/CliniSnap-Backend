@@ -1,1 +1,1 @@
-web: java -Dserver.port= -jar  target/demo-0.0.1-SNAPSHOT.jar
+web: java -Dserver.port= -jar  target/CliniSnap-Backend-1.0.0-SNAPSHOT.jar
