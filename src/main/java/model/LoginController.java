@@ -10,13 +10,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class LoginController {
 
-    private String username = "tom.meaney@mycit.ie";
-    private String password = "helloworld";
+    private String username = "tom.meaney@mycit.ie:alice.muller.67@gmail.com";
+    private String password = "helloworld:unicorns";
 
     @RequestMapping("/login")
     public User patient(@RequestBody User user) {
 
-        if(user.getUsername().equalsIgnoreCase(username) && user.getPassword().equalsIgnoreCase(password)){
+        if(user.getUsername().contains(username) && user.getPassword().contains(password)){
             user.setAccess(1);
         }
         else{
