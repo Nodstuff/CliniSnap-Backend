@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class PatientsController {
 
-        @RequestMapping("/")
+        @RequestMapping("/patient")
         public Patient patient(@RequestParam(value="name", defaultValue="World") String name) {
             return new Patient("999999000000","Tom","Meaney",30,"29 Friars Walk","Ballyphehane","Cork City");
         }
