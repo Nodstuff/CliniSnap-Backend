@@ -14,8 +14,13 @@ import java.util.List;
 public class PatientsController {
 
     @RequestMapping("/patient")
-    public Patient patient(@RequestParam(value="name", defaultValue="World") String name) {
-        return new Patient("99999","Tom","Meaney",30,"29 Friars Walk","Ballyphehane","Cork City");
+    public Patient patient(@RequestParam(value="mrn", defaultValue="") String mrn) {
+
+        if(mrn.equalsIgnoreCase("99999")){
+            return new Patient("99999","Tom","Meaney",30,"29 Friars Walk","Ballyphehane","Cork City");
+        }
+        return new Patient("1234","","",0,"","","");
+
     }
 
     @RequestMapping("/patients")
