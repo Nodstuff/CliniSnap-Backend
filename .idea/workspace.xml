@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61e30efb-a7a7-44ec-8884-8b463ed4054c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/model/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/model/User.java" />
-    </list>
+    <list default="true" id="61e30efb-a7a7-44ec-8884-8b463ed4054c" name="Default" comment="" />
     <ignored path="CliniSnap-Backend.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -599,7 +596,7 @@
       <workItem from="1456252873548" duration="1233000" />
       <workItem from="1456307814359" duration="987000" />
       <workItem from="1456313872436" duration="4353000" />
-      <workItem from="1456323532680" duration="1705000" />
+      <workItem from="1456323532680" duration="2038000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1456308203355</created>
@@ -617,7 +614,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17885000" />
+    <option name="totallyTimeSpent" value="18218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1046" extended-state="6" />
