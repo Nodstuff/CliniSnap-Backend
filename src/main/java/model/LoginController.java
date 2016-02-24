@@ -14,15 +14,15 @@ public class LoginController {
     private String password = "helloworld";
 
     @RequestMapping("/login")
-    public User patient(@RequestBody User user) {
+    public int patient(@RequestBody User user) {
 
-//        if(user.getUsername().equalsIgnoreCase(username) && user.getPassword().equalsIgnoreCase(password)){
-//            return 100;
-//        }
-//        else{
-//            return 0;
-//        }
-        return user;
+        if(user.getUsername().equalsIgnoreCase(username) && user.getPassword().equalsIgnoreCase(password)){
+            return 100;
+        }
+        else{
+            return 0;
+        }
+
     }
 
 }
