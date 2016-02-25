@@ -1,7 +1,7 @@
 package model;
 
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
@@ -14,7 +14,7 @@ import java.util.List;
 public class PatientsController {
 
     @RequestMapping("/patient")
-    public Patient patient(@RequestBody String mrn) {
+    public Patient patient(@RequestParam(value = "mrn", defaultValue = "") String mrn) {
 
         if(mrn.equalsIgnoreCase("99999")){
             return new Patient("99999","Tom","Meaney",30,"29 Friars Walk","Ballyphehane","Cork City");
