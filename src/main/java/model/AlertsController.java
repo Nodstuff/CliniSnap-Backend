@@ -15,6 +15,7 @@ public class AlertsController {
 
     @RequestMapping("/alerts")
     public List<Alert> alerts(@RequestParam(value = "userId", defaultValue = "") String userId) {
+
         List<Alert> alerts = new ArrayList<>();
 
         alerts.add(new Alert("1","James Walsh","Jack Hanley","Are you in the library already?"));

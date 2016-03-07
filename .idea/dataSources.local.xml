@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="PostgreSQL - jdbc:postgresql://ec2-107-20-148-211.compute-1.amazonaws.com :5432/dd3s7e6kmggak8" uuid="bcda6fb8-822f-4996-b379-036612961751">
+    <data-source name="PostgreSQL - dd3s7e6kmggak8@ec2-107-20-148-211.compute-1.amazonaws.com" uuid="d8aa4324-1664-4ec4-855d-5001861e02cb">
       <secret-storage>master_key</secret-storage>
-      <first-sync>true</first-sync>
       <user-name>iltpegaqncjjob</user-name>
+      <schema-pattern>dd3s7e6kmggak8.pg_catalog dd3s7e6kmggak8.public</schema-pattern>
+      <default-schemas>dd3s7e6kmggak8.public</default-schemas>
     </data-source>
   </component>
 </project>
