@@ -1,7 +1,6 @@
 package model;
 
 import org.springframework.context.annotation.Configuration;
-import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.config.http.SessionCreationPolicy;
@@ -16,10 +15,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http
                 .csrf().disable()
                 .authorizeRequests()
-                .antMatchers(HttpMethod.POST, "/").authenticated()
-                .antMatchers(HttpMethod.PUT, "/**").authenticated()
-                .antMatchers(HttpMethod.DELETE, "/**").authenticated()
-                .antMatchers(HttpMethod.GET, "/**").authenticated()
+//                .antMatchers(HttpMethod.POST, "/").authenticated()
+//                .antMatchers(HttpMethod.PUT, "/**").authenticated()
+//                .antMatchers(HttpMethod.DELETE, "/**").authenticated()
+//                .antMatchers(HttpMethod.GET, "/**").authenticated()
                 .anyRequest().authenticated()
                 .and()
                 .httpBasic().and()
