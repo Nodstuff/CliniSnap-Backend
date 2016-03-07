@@ -13,6 +13,8 @@ public class TokenController {
     @RequestMapping("/token")
     public void saveToken(@RequestParam(value = "token", defaultValue = "") String token){
        // List<String> tokenList = new ArrayList<>();
+
+        //Todo add token to database here and store under user ID
         GcmSender g = new GcmSender();
         g.sendMessage("Hello world!",token);
     }
