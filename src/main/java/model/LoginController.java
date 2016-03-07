@@ -13,7 +13,7 @@ public class LoginController {
 
     @RequestMapping("/login")
     public void patient() {
-        
+
     }
 
 }
