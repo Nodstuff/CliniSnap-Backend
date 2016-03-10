@@ -4,7 +4,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
@@ -21,9 +20,8 @@ public class ImageController {
     }
 
     @RequestMapping("/view-image")
-    public HttpServletResponse viewImage(HttpServletResponse response) throws IOException {
-        response.sendRedirect("data:image/webp;base64,"+encoded);
-        return response;
+    public String viewImage() throws IOException {
+        return "data:image/webp;base64,"+encoded;
     }
 
 
