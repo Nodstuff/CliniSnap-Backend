@@ -19,7 +19,7 @@ public class ImageController {
 
     @RequestMapping("/view-image")
     public String viewImage(){
-        return "data:image/webp;base64,"+encoded;
+        return "redirect:data:image/webp;base64,"+encoded;
     }
 
 
