@@ -21,12 +21,9 @@ public class ImageController {
     }
 
     @RequestMapping("/view-image")
-    public void viewImage(HttpServletResponse response){
-        try {
-            response.sendRedirect("data:image/webp;base64,"+encoded);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    public HttpServletResponse viewImage(HttpServletResponse response) throws IOException {
+        response.sendRedirect("data:image/webp;base64,"+encoded);
+        return response;
     }
 
 
