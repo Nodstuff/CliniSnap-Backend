@@ -1,5 +1,6 @@
 package model;
 
+import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,15 +14,17 @@ import java.io.IOException;
 public class ImageController {
 
     private String encoded = "";
+    private String mrn = "";
 
     @RequestMapping("/image")
-    public void saveImage(@RequestParam(value = "encodedImage", defaultValue = "") String encodedImage){
-        encoded = encodedImage;
+    public void saveImage(@RequestParam MultiValueMap<String, String> paramMap){
+        mrn = paramMap.getFirst("mrn");
+        encoded = paramMap.getFirst("encodedImage");
     }
 
     @RequestMapping("/view-image")
     public String viewImage() throws IOException {
-        return "data:image/webp;base64,"+encoded;
+        return mrn+ "     data:image/webp;base64,"+encoded;
     }
 
 
