@@ -24,8 +24,6 @@ public class ImageController {
 
     @RequestMapping("/view-image")
     public String viewImage() throws IOException {
-        return mrn+ "     data:image/webp;base64,"+encoded;
+        return "data:image/webp;base64,"+encoded;
     }
-
-
 }
