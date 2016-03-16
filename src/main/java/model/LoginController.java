@@ -27,8 +27,8 @@ public class LoginController {
     }
 
     public void connect(UUID uuid){
-        String sql = "INSERT INTO \"user\" " +
-                "(auth_token) VALUES (?) WHERE username = 'Tom'";
+        String sql = "UPDATE \"user\" " +
+                "SET auth_token = (?) WHERE username = 'Tom'";
         Connection conn = null;
 
         try {
