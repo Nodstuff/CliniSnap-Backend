@@ -1,5 +1,6 @@
 package model;
 
+import crypto.AESCrypto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -18,12 +19,13 @@ public class LoginController {
 
     @Autowired
     private DataSource datasource;
+    private String testKey = "TestKey";
 
     @RequestMapping("/login")
-    public UUID login() {
+    public EncryptedToken login() {
         UUID idOne = UUID.randomUUID();
         connect(idOne);
-        return idOne;
+        return new EncryptedToken(AESCrypto.encrypt(testKey,idOne.toString()));
     }
 
     public void connect(UUID uuid){
