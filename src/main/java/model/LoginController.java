@@ -12,11 +12,10 @@ import java.util.UUID;
 public class LoginController {
 
     @RequestMapping("/login")
-    public String login() {
+    public UUID login() {
         UUID idOne = UUID.randomUUID();
 
-        return idOne.toString();
-
+        return idOne;
     }
 
 }
