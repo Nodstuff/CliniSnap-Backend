@@ -206,14 +206,14 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/model/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.16440678">
-              <caret line="30" column="67" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
+              <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
               <folding>
-                <marker date="1458138111749" expanded="true" signature="701:719" placeholder="INSERT INTO " />
-                <marker date="1458138111749" expanded="true" signature="701:766" placeholder="INSERT INTO CUSTOMER... " />
-                <marker date="1458138111749" expanded="true" signature="701:772" placeholder="INSERT INTO \&quot;user\&quot;... " />
-                <marker date="1458138111749" expanded="true" signature="701:787" placeholder="INSERT INTO \&quot;user\&quot;... " />
-                <marker date="1458138111749" expanded="true" signature="701:793" placeholder="INSERT INTO \&quot;user\&quot;... " />
-                <marker date="1458138111749" expanded="true" signature="701:794" placeholder="INSERT INTO \&quot;user\&quot;... " />
+                <marker date="1458138229026" expanded="true" signature="701:719" placeholder="INSERT INTO " />
+                <marker date="1458138229026" expanded="true" signature="701:766" placeholder="INSERT INTO CUSTOMER... " />
+                <marker date="1458138229026" expanded="true" signature="701:772" placeholder="INSERT INTO \&quot;user\&quot;... " />
+                <marker date="1458138229026" expanded="true" signature="701:783" placeholder="INSERT INTO \&quot;user\&quot;... " />
+                <marker date="1458138229026" expanded="true" signature="701:789" placeholder="INSERT INTO \&quot;user\&quot;... " />
+                <marker date="1458138229026" expanded="true" signature="701:790" placeholder="INSERT INTO \&quot;user\&quot;... " />
               </folding>
             </state>
           </provider>
@@ -783,7 +783,7 @@
       <workItem from="1457689592806" duration="2659000" />
       <workItem from="1458037500528" duration="2562000" />
       <workItem from="1458088677303" duration="96000" />
-      <workItem from="1458125176420" duration="5864000" />
+      <workItem from="1458125176420" duration="5981000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1456308203355</created>
@@ -807,7 +807,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65249000" />
+    <option name="totallyTimeSpent" value="65366000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1304,14 +1304,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/model/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16440678">
-          <caret line="30" column="67" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
+          <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
           <folding>
-            <marker date="1458138111749" expanded="true" signature="701:719" placeholder="INSERT INTO " />
-            <marker date="1458138111749" expanded="true" signature="701:766" placeholder="INSERT INTO CUSTOMER... " />
-            <marker date="1458138111749" expanded="true" signature="701:772" placeholder="INSERT INTO \&quot;user\&quot;... " />
-            <marker date="1458138111749" expanded="true" signature="701:787" placeholder="INSERT INTO \&quot;user\&quot;... " />
-            <marker date="1458138111749" expanded="true" signature="701:793" placeholder="INSERT INTO \&quot;user\&quot;... " />
-            <marker date="1458138111749" expanded="true" signature="701:794" placeholder="INSERT INTO \&quot;user\&quot;... " />
+            <marker date="1458138229026" expanded="true" signature="701:719" placeholder="INSERT INTO " />
+            <marker date="1458138229026" expanded="true" signature="701:766" placeholder="INSERT INTO CUSTOMER... " />
+            <marker date="1458138229026" expanded="true" signature="701:772" placeholder="INSERT INTO \&quot;user\&quot;... " />
+            <marker date="1458138229026" expanded="true" signature="701:783" placeholder="INSERT INTO \&quot;user\&quot;... " />
+            <marker date="1458138229026" expanded="true" signature="701:789" placeholder="INSERT INTO \&quot;user\&quot;... " />
+            <marker date="1458138229026" expanded="true" signature="701:790" placeholder="INSERT INTO \&quot;user\&quot;... " />
           </folding>
         </state>
       </provider>
