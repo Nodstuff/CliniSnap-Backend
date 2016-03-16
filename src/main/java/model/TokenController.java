@@ -4,6 +4,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.UUID;
+
 /**
  * Created by tmeaney on 07/03/16.
  */
@@ -15,7 +17,8 @@ public class TokenController {
        // List<String> tokenList = new ArrayList<>();
 
         //Todo add token to database here and store under user ID
+        UUID idOne = UUID.randomUUID();
         GcmSender g = new GcmSender();
-        g.sendMessage("Hello world!",token);
+        g.sendMessage(idOne.toString(),token);
     }
 }

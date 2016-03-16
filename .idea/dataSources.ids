@@ -10,8 +10,8 @@
       <schema id="2" parent="1" name="public">
         <object-id>2200</object-id>
         <comment>standard public schema</comment>
-        <introspection-state-number>15367109</introspection-state-number>
-        <introspection-timestamp>2016-03-10.16:32:38.755</introspection-timestamp>
+        <introspection-state-number>17112185</introspection-state-number>
+        <introspection-timestamp>2016-03-15.11:59:14.763</introspection-timestamp>
       </schema>
       <schema id="3" parent="1" name="pg_catalog">
         <object-id>11</object-id>
@@ -33,7 +33,7 @@
       </sequence>
       <table id="7" parent="2" name="image">
         <object-id>1343059</object-id>
-        <state-number>15367108</state-number>
+        <state-number>17112185</state-number>
       </table>
       <table id="8" parent="2" name="patient">
         <object-id>1208270</object-id>
@@ -19987,9 +19987,9 @@
         <data-type>integer</data-type>
       </column>
       <column id="3549" parent="7" name="encoded_image">
-        <state-number>15367108</state-number>
+        <state-number>17112185</state-number>
         <mandatory>1</mandatory>
-        <data-type>integer</data-type>
+        <data-type>text</data-type>
       </column>
       <column id="3550" parent="7" name="create_dttm">
         <state-number>15367108</state-number>
