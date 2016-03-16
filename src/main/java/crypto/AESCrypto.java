@@ -4,13 +4,20 @@ import org.apache.commons.codec.binary.Base64;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
+import java.io.UnsupportedEncodingException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 
 
 public class AESCrypto {
+
+    private static final String HASH_ALGORITHM = "SHA-256";
+
+
     public static String encrypt(String key, String value) {
         try {
 //            IvParameterSpec iv = new IvParameterSpec(initVector.getBytes("UTF-8"));
-            SecretKeySpec skeySpec = new SecretKeySpec(key.getBytes("UTF-8"), "AES");
+            SecretKeySpec skeySpec = generateKey(key);
 
             Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
             cipher.init(Cipher.ENCRYPT_MODE, skeySpec);
@@ -43,5 +50,18 @@ public class AESCrypto {
         }
 
         return null;
+    }
+
+    public static void main(String[] args) {
+        AESCrypto.encrypt("helloworld","tom");
+    }
+
+    private static SecretKeySpec generateKey(final String password) throws NoSuchAlgorithmException, UnsupportedEncodingException {
+        final MessageDigest digest = MessageDigest.getInstance(HASH_ALGORITHM);
+        byte[] bytes = password.getBytes("UTF-8");
+        digest.update(bytes, 0, bytes.length);
+        byte[] key = digest.digest();
+
+        return new SecretKeySpec(key, "AES");
     }
 }
