@@ -3,6 +3,8 @@ package model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.UUID;
+
 /**
  * Created by tmeaney on 11/02/16.
  */
@@ -10,7 +12,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class LoginController {
 
     @RequestMapping("/login")
-    public void patient() {
+    public String login() {
+        UUID idOne = UUID.randomUUID();
+
+        return idOne.toString();
 
     }
 
