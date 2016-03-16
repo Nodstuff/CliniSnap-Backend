@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61e30efb-a7a7-44ec-8884-8b463ed4054c" name="Default" comment="remove .idea folder">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/crypto/AESCrypto.java" afterPath="$PROJECT_DIR$/src/main/java/crypto/AESCrypto.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/model/LoginController.java" />
     </list>
     <ignored path="CliniSnap-Backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -121,12 +121,12 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
               <folding>
-                <marker date="1458149916418" expanded="true" signature="840:847" placeholder="INSERT INTO " />
-                <marker date="1458149916418" expanded="true" signature="840:886" placeholder="INSERT INTO CUSTOMER... " />
-                <marker date="1458149916418" expanded="true" signature="840:897" placeholder="INSERT INTO \&quot;user\&quot;... " />
-                <marker date="1458149916418" expanded="true" signature="840:908" placeholder="INSERT INTO \&quot;user\&quot;... " />
-                <marker date="1458149916418" expanded="true" signature="840:914" placeholder="INSERT INTO \&quot;user\&quot;... " />
-                <marker date="1458149916418" expanded="true" signature="840:915" placeholder="INSERT INTO \&quot;user\&quot;... " />
+                <marker date="1458150616818" expanded="true" signature="843:850" placeholder="INSERT INTO " />
+                <marker date="1458150616818" expanded="true" signature="843:889" placeholder="INSERT INTO CUSTOMER... " />
+                <marker date="1458150616818" expanded="true" signature="843:900" placeholder="INSERT INTO \&quot;user\&quot;... " />
+                <marker date="1458150616818" expanded="true" signature="843:911" placeholder="INSERT INTO \&quot;user\&quot;... " />
+                <marker date="1458150616818" expanded="true" signature="843:917" placeholder="INSERT INTO \&quot;user\&quot;... " />
+                <marker date="1458150616818" expanded="true" signature="843:918" placeholder="INSERT INTO \&quot;user\&quot;... " />
               </folding>
             </state>
           </provider>
@@ -147,8 +147,8 @@
       <file leaf-file-name="AESCrypto.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/crypto/AESCrypto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5101695">
-              <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+            <state vertical-scroll-proportion="-0.6135593">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1683#1684#0" expanded="true" />
@@ -238,8 +238,8 @@
         <option value="$PROJECT_DIR$/src/main/java/crypto/AESGCMCrypt.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/model/EncryptedToken.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/crypto/AESCrypto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/LoginController.java" />
       </list>
     </option>
   </component>
@@ -784,7 +784,7 @@
       <workItem from="1458037500528" duration="2562000" />
       <workItem from="1458088677303" duration="96000" />
       <workItem from="1458125176420" duration="6967000" />
-      <workItem from="1458148906984" duration="1488000" />
+      <workItem from="1458148906984" duration="1713000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1456308203355</created>
@@ -808,7 +808,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67840000" />
+    <option name="totallyTimeSpent" value="68065000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -828,7 +828,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.50213677" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32719395" sideWeight="0.49786323" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32719395" sideWeight="0.49786323" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1271,20 +1271,20 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
           <folding>
-            <marker date="1458149916418" expanded="true" signature="840:847" placeholder="INSERT INTO " />
-            <marker date="1458149916418" expanded="true" signature="840:886" placeholder="INSERT INTO CUSTOMER... " />
-            <marker date="1458149916418" expanded="true" signature="840:897" placeholder="INSERT INTO \&quot;user\&quot;... " />
-            <marker date="1458149916418" expanded="true" signature="840:908" placeholder="INSERT INTO \&quot;user\&quot;... " />
-            <marker date="1458149916418" expanded="true" signature="840:914" placeholder="INSERT INTO \&quot;user\&quot;... " />
-            <marker date="1458149916418" expanded="true" signature="840:915" placeholder="INSERT INTO \&quot;user\&quot;... " />
+            <marker date="1458150616818" expanded="true" signature="843:850" placeholder="INSERT INTO " />
+            <marker date="1458150616818" expanded="true" signature="843:889" placeholder="INSERT INTO CUSTOMER... " />
+            <marker date="1458150616818" expanded="true" signature="843:900" placeholder="INSERT INTO \&quot;user\&quot;... " />
+            <marker date="1458150616818" expanded="true" signature="843:911" placeholder="INSERT INTO \&quot;user\&quot;... " />
+            <marker date="1458150616818" expanded="true" signature="843:917" placeholder="INSERT INTO \&quot;user\&quot;... " />
+            <marker date="1458150616818" expanded="true" signature="843:918" placeholder="INSERT INTO \&quot;user\&quot;... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/crypto/AESCrypto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5101695">
-          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+        <state vertical-scroll-proportion="-0.6135593">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1683#1684#0" expanded="true" />

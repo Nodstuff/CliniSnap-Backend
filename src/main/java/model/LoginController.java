@@ -19,7 +19,7 @@ public class LoginController {
 
     @Autowired
     private DataSource datasource;
-    private String testKey = "TestKey";
+    private String testKey = "helloworld";
 
     @RequestMapping("/login")
     public EncryptedToken login() {
