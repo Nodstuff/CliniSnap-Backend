@@ -1,5 +1,7 @@
 package crypto;
 
+import org.apache.commons.codec.binary.Base64;
+
 import javax.crypto.Cipher;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
@@ -7,7 +9,7 @@ import java.io.UnsupportedEncodingException;
 import java.security.GeneralSecurityException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.util.Base64;
+import java.security.Security;
 
 /**
  * Encrypt and decrypt messages using AES 256 bit encryption that are compatible with AESCrypt-ObjC and AESCrypt Ruby.
@@ -44,6 +46,7 @@ public final class AESCrypt {
         digest.update(bytes, 0, bytes.length);
         byte[] key = digest.digest();
 
+        log("SHA-256 key ", key);
 
         SecretKeySpec secretKeySpec = new SecretKeySpec(key, "AES");
         return secretKeySpec;
@@ -65,11 +68,14 @@ public final class AESCrypt {
         try {
             final SecretKeySpec key = generateKey(password);
 
+            log("message", message);
 
             byte[] cipherText = encrypt(key, ivBytes, message.getBytes(CHARSET));
 
+
             //NO_WRAP is important as was getting \n at the end
-            String encoded = Base64.getEncoder().withoutPadding().encodeToString(cipherText);
+            String encoded = Base64.encodeBase64String(cipherText);
+            log("Base64.NO_WRAP", encoded);
             return encoded;
         } catch (UnsupportedEncodingException e) {
             if (DEBUG_LOG_ENABLED)
@@ -90,11 +96,12 @@ public final class AESCrypt {
      */
     public static byte[] encrypt(final SecretKeySpec key, final byte[] iv, final byte[] message)
             throws GeneralSecurityException {
-        final Cipher cipher = Cipher.getInstance(AES_MODE);
+        final Cipher cipher = Cipher.getInstance(AES_MODE, "BC");
         IvParameterSpec ivSpec = new IvParameterSpec(iv);
         cipher.init(Cipher.ENCRYPT_MODE, key, ivSpec);
         byte[] cipherText = cipher.doFinal(message);
 
+        log("cipherText", cipherText);
 
         return cipherText;
     }
@@ -114,11 +121,15 @@ public final class AESCrypt {
         try {
             final SecretKeySpec key = generateKey(password);
 
-            byte[] decodedCipherText = Base64.getDecoder().decode(base64EncodedCipherText);
+            log("base64EncodedCipherText", base64EncodedCipherText);
+            byte[] decodedCipherText = Base64.decodeBase64(base64EncodedCipherText);
+            log("decodedCipherText", decodedCipherText);
 
             byte[] decryptedBytes = decrypt(key, ivBytes, decodedCipherText);
 
+            log("decryptedBytes", decryptedBytes);
             String message = new String(decryptedBytes, CHARSET);
+            log("message", message);
 
 
             return message;
@@ -127,6 +138,7 @@ public final class AESCrypt {
 
             throw new GeneralSecurityException(e);
         }
+
         return null;
     }
 
@@ -142,13 +154,25 @@ public final class AESCrypt {
      */
     public static byte[] decrypt(final SecretKeySpec key, final byte[] iv, final byte[] decodedCipherText)
             throws GeneralSecurityException {
-        final Cipher cipher = Cipher.getInstance(AES_MODE);
+        final Cipher cipher = Cipher.getInstance(AES_MODE, "BC");
         IvParameterSpec ivSpec = new IvParameterSpec(iv);
         cipher.init(Cipher.DECRYPT_MODE, key, ivSpec);
         byte[] decryptedBytes = cipher.doFinal(decodedCipherText);
 
+        log("decryptedBytes", decryptedBytes);
+
         return decryptedBytes;
     }
+
+
+
+
+    private static void log(String what, byte[] bytes) {
+    }
+
+    private static void log(String what, String value) {
+    }
+
 
     /**
      * Converts byte array to hexidecimal useful for logging and fault finding
@@ -169,5 +193,14 @@ public final class AESCrypt {
     }
 
     private AESCrypt() {
+    }
+
+    public static void main(String[] args) {
+        try {
+            Security.addProvider(new org.bouncycastle.jce.provider.BouncyCastleProvider());
+            System.out.println(Base64.encodeBase64String(encrypt("helloworld","testing").getBytes()));
+        } catch (GeneralSecurityException e) {
+            e.printStackTrace();
+        }
     }
 }

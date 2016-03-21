@@ -10,8 +10,8 @@
       <schema id="2" parent="1" name="public">
         <object-id>2200</object-id>
         <comment>standard public schema</comment>
-        <introspection-state-number>17112185</introspection-state-number>
-        <introspection-timestamp>2016-03-15.11:59:14.763</introspection-timestamp>
+        <introspection-state-number>20043651</introspection-state-number>
+        <introspection-timestamp>2016-03-21.16:26:47.615</introspection-timestamp>
       </schema>
       <schema id="3" parent="1" name="pg_catalog">
         <object-id>11</object-id>
@@ -33,7 +33,7 @@
       </sequence>
       <table id="7" parent="2" name="image">
         <object-id>1343059</object-id>
-        <state-number>17112185</state-number>
+        <state-number>20043651</state-number>
       </table>
       <table id="8" parent="2" name="patient">
         <object-id>1208270</object-id>
@@ -19997,13 +19997,13 @@
         <data-type>timestamp</data-type>
       </column>
       <column id="3551" parent="7" name="created_by">
-        <state-number>15367108</state-number>
+        <state-number>20043625</state-number>
         <mandatory>1</mandatory>
-        <data-type>timestamp</data-type>
+        <data-type>varchar(255)</data-type>
       </column>
       <column id="3552" parent="7" name="modif_by">
-        <state-number>15367108</state-number>
-        <data-type>timestamp</data-type>
+        <state-number>20043651</state-number>
+        <data-type>varchar(255)</data-type>
       </column>
       <column id="3553" parent="7" name="modif_dttm">
         <state-number>15367108</state-number>
