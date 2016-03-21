@@ -38,7 +38,6 @@ public class PatientsController {
         pList.add(new Patient("98765","Sean","Breen","19/12/1990","29 house road","Ballincollig","Cork","0648574635"));
         pList.add(new Patient("240910","Oscar","Quill Walsh","07/11/1973","29 house road","Castle View","Cork","0648574635"));
 
-        pList.forEach(this::connect);
 
         for(Patient p: pList){
 
