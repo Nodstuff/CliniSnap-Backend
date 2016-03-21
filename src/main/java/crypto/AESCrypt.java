@@ -9,7 +9,6 @@ import java.io.UnsupportedEncodingException;
 import java.security.GeneralSecurityException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.security.Security;
 
 /**
  * Encrypt and decrypt messages using AES 256 bit encryption that are compatible with AESCrypt-ObjC and AESCrypt Ruby.
@@ -193,14 +192,5 @@ public final class AESCrypt {
     }
 
     private AESCrypt() {
-    }
-
-    public static void main(String[] args) {
-        try {
-            Security.addProvider(new org.bouncycastle.jce.provider.BouncyCastleProvider());
-            System.out.println(Base64.encodeBase64String(encrypt("helloworld","testing").getBytes()));
-        } catch (GeneralSecurityException e) {
-            e.printStackTrace();
-        }
     }
 }
