@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61e30efb-a7a7-44ec-8884-8b463ed4054c" name="Default" comment="remove .idea folder">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/ImageController.java" afterPath="$PROJECT_DIR$/src/main/java/model/ImageController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/PatientsController.java" afterPath="$PROJECT_DIR$/src/main/java/model/PatientsController.java" />
     </list>
     <ignored path="CliniSnap-Backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,7 +62,7 @@
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="image" />
+        <option name="myItemId" value="patient" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -101,23 +101,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EncryptedToken.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/EncryptedToken.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ImageController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/ImageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13197969">
-              <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="69" column="5" selection-start-line="40" selection-start-column="4" selection-end-line="69" selection-end-column="5" />
               <folding>
                 <marker date="1458578701133" expanded="true" signature="1189:1201" placeholder="INSERT INTO \&quot;image\&quot;... " />
                 <marker date="1458578701133" expanded="true" signature="1189:1210" placeholder="INSERT INTO \&quot;films\&quot;... " />
@@ -130,12 +118,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <file leaf-file-name="PatientsController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/PatientsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-              <folding />
+            <state vertical-scroll-proportion="0.39593908">
+              <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+              <folding>
+                <marker date="1458579580897" expanded="true" signature="3284:3531" placeholder="INSERT INTO \&quot;patient\&quot;... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,28 +143,6 @@
                 <marker date="1458574010940" expanded="true" signature="1031:1105" placeholder="INSERT INTO \&quot;user\&quot;... " />
                 <marker date="1458574010940" expanded="true" signature="1031:1106" placeholder="INSERT INTO \&quot;user\&quot;... " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AESCrypt.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crypto/AESCrypt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="194" column="5" selection-start-line="194" selection-start-column="5" selection-end-line="194" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/MainConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -228,7 +196,6 @@
         <option value="$PROJECT_DIR$/src/main/java/model/Alert.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/GcmSender.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/PatientsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Patient.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/TokenController.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/AlertsController.java" />
@@ -242,6 +209,7 @@
         <option value="$PROJECT_DIR$/src/main/java/model/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/MainConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/ImageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/PatientsController.java" />
       </list>
     </option>
   </component>
@@ -832,7 +800,7 @@
       <workItem from="1458125176420" duration="6967000" />
       <workItem from="1458148906984" duration="1713000" />
       <workItem from="1458299117360" duration="605000" />
-      <workItem from="1458559395852" duration="8877000" />
+      <workItem from="1458559395852" duration="9757000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1456308203355</created>
@@ -856,7 +824,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77547000" />
+    <option name="totallyTimeSpent" value="78427000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1256,14 +1224,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/PatientsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="126" selection-start-line="45" selection-start-column="126" selection-end-line="45" selection-end-column="126" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/AlertsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1308,16 +1268,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/EncryptedToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/crypto/AESCrypt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1329,19 +1279,6 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/d8311ab/d8aa4324-1664-4ec4-855d-5001861e02cb/dd3s7e6kmggak8.public.user">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/d8311ab/d8aa4324-1664-4ec4-855d-5001861e02cb/dd3s7e6kmggak8.public.image">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1395,10 +1332,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/EncryptedToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25888324">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/d8311ab/d8aa4324-1664-4ec4-855d-5001861e02cb/dd3s7e6kmggak8.public.image">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/ImageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13197969">
-          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="5" selection-start-line="40" selection-start-column="4" selection-end-line="69" selection-end-column="5" />
           <folding>
             <marker date="1458578701133" expanded="true" signature="1189:1201" placeholder="INSERT INTO \&quot;image\&quot;... " />
             <marker date="1458578701133" expanded="true" signature="1189:1210" placeholder="INSERT INTO \&quot;films\&quot;... " />
@@ -1406,6 +1366,16 @@
             <marker date="1458578701133" expanded="true" signature="1189:1328" placeholder="INSERT INTO \&quot;films\&quot;... " />
             <marker date="1458578701133" expanded="true" signature="1189:1345" placeholder="INSERT INTO \&quot;films\&quot;... " />
             <marker date="1458578701133" expanded="true" signature="1189:1347" placeholder="INSERT INTO \&quot;films\&quot;... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/PatientsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39593908">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <folding>
+            <marker date="1458579580897" expanded="true" signature="3284:3531" placeholder="INSERT INTO \&quot;patient\&quot;... " />
           </folding>
         </state>
       </provider>

@@ -1,10 +1,16 @@
 package model;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.sql.DataSource;
+import java.sql.*;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 /**
@@ -12,6 +18,9 @@ import java.util.List;
  */
 @RestController
 public class PatientsController {
+
+    @Autowired
+    private DataSource datasource;
 
     @RequestMapping("/patient")
     public Patient patient(@RequestParam(value = "mrn", defaultValue = "") String mrn) {
@@ -25,7 +34,10 @@ public class PatientsController {
         pList.add(new Patient("98765","Sean","Breen","19/12/1990","29 house road","Ballincollig","Cork","0648574635"));
         pList.add(new Patient("240910","Oscar","Quill Walsh","07/11/1973","29 house road","Castle View","Cork","0648574635"));
 
+        pList.forEach(this::connect);
+
         for(Patient p: pList){
+
             if (p.getMrn().equals(mrn)) {
                 return p;
             }
@@ -46,6 +58,55 @@ public class PatientsController {
         pList.add(new Patient("240910","Oscar","Quill Walsh","07/11/1973","29 house road","Castle View","Cork","0648574635"));
 
         return pList;
+    }
+
+    public void connect(Patient patient){
+
+        Date parsedDate = null;
+
+        String dateInString = patient.getDob();
+        SimpleDateFormat formatter = new SimpleDateFormat("EEEE, dd/MM/yyyy");
+        try {
+            parsedDate = (Date) formatter.parse(dateInString);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+        String sql = "INSERT INTO \"patient\"" +
+                "(mrn, fname, sname, date_of_birth, address1, address2, address3," +
+                " phone, created_by, create_dttm, modif_by,modif_dttm) " +
+                "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ,?)";
+
+        Connection conn = null;
+
+        try {
+            conn = datasource.getConnection();
+            PreparedStatement ps = conn.prepareStatement(sql);
+            ps.setString(1, patient.getMrn());
+            ps.setString(2,patient.getFname());
+            ps.setString(3,patient.getSname());
+            ps.setDate(4,parsedDate);
+            ps.setString(5,patient.getAddress1());
+            ps.setString(6,patient.getAddress2());
+            ps.setString(7,patient.getAddress3());
+            ps.setString(8,patient.getPhone());
+            ps.setString(9, "Tom Meaney");
+            ps.setTimestamp(10, new Timestamp(Calendar.getInstance().getTimeInMillis()));
+            ps.setString(11, "Tom Meaney");
+            ps.setTimestamp(12, new Timestamp(Calendar.getInstance().getTimeInMillis()));
+            ps.executeUpdate();
+            ps.close();
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+
+        } finally {
+            if (conn != null) {
+                try {
+                    conn.close();
+                } catch (SQLException e) {}
+            }
+        }
     }
 
 
