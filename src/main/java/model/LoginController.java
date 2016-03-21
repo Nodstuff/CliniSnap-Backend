@@ -25,7 +25,7 @@ public class LoginController {
     public EncryptedToken login() {
         UUID idOne = UUID.randomUUID();
         connect(idOne);
-        return new EncryptedToken(AESCrypto.encrypt(testKey,idOne.toString()));
+        return new EncryptedToken(AESCrypto.encrypt(testKey,"testing"));
     }
 
     public void connect(UUID uuid){

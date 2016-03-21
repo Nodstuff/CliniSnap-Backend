@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61e30efb-a7a7-44ec-8884-8b463ed4054c" name="Default" comment="remove .idea folder">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/crypto/AESCrypto.java" afterPath="$PROJECT_DIR$/src/main/java/crypto/AESCrypto.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/model/LoginController.java" />
     </list>
     <ignored path="CliniSnap-Backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -115,25 +115,23 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="39" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.5177665">
+              <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
               <folding>
-                <marker date="1458150616818" expanded="true" signature="843:850" placeholder="INSERT INTO " />
-                <marker date="1458150616818" expanded="true" signature="843:889" placeholder="INSERT INTO CUSTOMER... " />
-                <marker date="1458150616818" expanded="true" signature="843:900" placeholder="INSERT INTO \&quot;user\&quot;... " />
-                <marker date="1458150616818" expanded="true" signature="843:911" placeholder="INSERT INTO \&quot;user\&quot;... " />
-                <marker date="1458150616818" expanded="true" signature="843:917" placeholder="INSERT INTO \&quot;user\&quot;... " />
-                <marker date="1458150616818" expanded="true" signature="843:918" placeholder="INSERT INTO \&quot;user\&quot;... " />
+                <marker date="1458569546711" expanded="true" signature="836:843" placeholder="INSERT INTO " />
+                <marker date="1458569546711" expanded="true" signature="836:882" placeholder="INSERT INTO CUSTOMER... " />
+                <marker date="1458569546711" expanded="true" signature="836:893" placeholder="INSERT INTO \&quot;user\&quot;... " />
+                <marker date="1458569546711" expanded="true" signature="836:904" placeholder="INSERT INTO \&quot;user\&quot;... " />
+                <marker date="1458569546711" expanded="true" signature="836:910" placeholder="INSERT INTO \&quot;user\&quot;... " />
+                <marker date="1458569546711" expanded="true" signature="836:911" placeholder="INSERT INTO \&quot;user\&quot;... " />
               </folding>
             </state>
           </provider>
@@ -151,11 +149,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AESCrypto.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AESCrypto.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/crypto/AESCrypto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47377327">
-              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -245,8 +243,8 @@
         <option value="$PROJECT_DIR$/src/main/java/crypto/AESGCMCrypt.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/model/EncryptedToken.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/crypto/AESCrypto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/LoginController.java" />
       </list>
     </option>
   </component>
@@ -793,7 +791,7 @@
       <workItem from="1458125176420" duration="6967000" />
       <workItem from="1458148906984" duration="1713000" />
       <workItem from="1458299117360" duration="605000" />
-      <workItem from="1458559395852" duration="1371000" />
+      <workItem from="1458559395852" duration="1852000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1456308203355</created>
@@ -817,7 +815,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70041000" />
+    <option name="totallyTimeSpent" value="70522000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -837,7 +835,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.50213677" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3261105" sideWeight="0.49786323" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3261105" sideWeight="0.49786323" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1316,31 +1314,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/TokenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="39" />
-          <folding>
-            <marker date="1458150616818" expanded="true" signature="843:850" placeholder="INSERT INTO " />
-            <marker date="1458150616818" expanded="true" signature="843:889" placeholder="INSERT INTO CUSTOMER... " />
-            <marker date="1458150616818" expanded="true" signature="843:900" placeholder="INSERT INTO \&quot;user\&quot;... " />
-            <marker date="1458150616818" expanded="true" signature="843:911" placeholder="INSERT INTO \&quot;user\&quot;... " />
-            <marker date="1458150616818" expanded="true" signature="843:917" placeholder="INSERT INTO \&quot;user\&quot;... " />
-            <marker date="1458150616818" expanded="true" signature="843:918" placeholder="INSERT INTO \&quot;user\&quot;... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/EncryptedToken.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1353,10 +1326,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/crypto/AESCrypto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47377327">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/TokenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5177665">
+          <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
+          <folding>
+            <marker date="1458569546711" expanded="true" signature="836:843" placeholder="INSERT INTO " />
+            <marker date="1458569546711" expanded="true" signature="836:882" placeholder="INSERT INTO CUSTOMER... " />
+            <marker date="1458569546711" expanded="true" signature="836:893" placeholder="INSERT INTO \&quot;user\&quot;... " />
+            <marker date="1458569546711" expanded="true" signature="836:904" placeholder="INSERT INTO \&quot;user\&quot;... " />
+            <marker date="1458569546711" expanded="true" signature="836:910" placeholder="INSERT INTO \&quot;user\&quot;... " />
+            <marker date="1458569546711" expanded="true" signature="836:911" placeholder="INSERT INTO \&quot;user\&quot;... " />
           </folding>
         </state>
       </provider>

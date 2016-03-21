@@ -52,12 +52,6 @@ public class AESCrypto {
         return null;
     }
 
-//    public static void main(String[] args) {
-//
-//        UUID idOne = UUID.randomUUID();
-//        AESCrypto.encrypt("helloworld",idOne.toString());
-//    }
-
     private static SecretKeySpec generateKey(final String password) throws NoSuchAlgorithmException, UnsupportedEncodingException {
         final MessageDigest digest = MessageDigest.getInstance(HASH_ALGORITHM);
         byte[] bytes = password.getBytes("UTF-8");
