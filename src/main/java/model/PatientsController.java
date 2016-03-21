@@ -6,11 +6,15 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.sql.DataSource;
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.sql.Timestamp;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -65,9 +69,9 @@ public class PatientsController {
         Date parsedDate = null;
 
         String dateInString = patient.getDob();
-        SimpleDateFormat formatter = new SimpleDateFormat("EEEE, dd/MM/yyyy");
+        SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
         try {
-            parsedDate = (Date) formatter.parse(dateInString);
+            parsedDate = formatter.parse(dateInString);
         } catch (ParseException e) {
             e.printStackTrace();
         }
@@ -85,7 +89,7 @@ public class PatientsController {
             ps.setString(1, patient.getMrn());
             ps.setString(2,patient.getFname());
             ps.setString(3,patient.getSname());
-            ps.setDate(4,parsedDate);
+            ps.setTimestamp(4,new Timestamp(parsedDate.getTime()));
             ps.setString(5,patient.getAddress1());
             ps.setString(6,patient.getAddress2());
             ps.setString(7,patient.getAddress3());

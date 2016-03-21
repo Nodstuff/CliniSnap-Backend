@@ -10,8 +10,8 @@
       <schema id="2" parent="1" name="public">
         <object-id>2200</object-id>
         <comment>standard public schema</comment>
-        <introspection-state-number>20046373</introspection-state-number>
-        <introspection-timestamp>2016-03-21.16:36:19.929</introspection-timestamp>
+        <introspection-state-number>20056159</introspection-state-number>
+        <introspection-timestamp>2016-03-21.17:08:41.161</introspection-timestamp>
       </schema>
       <schema id="3" parent="1" name="pg_catalog">
         <object-id>11</object-id>
@@ -37,7 +37,7 @@
       </table>
       <table id="8" parent="2" name="patient">
         <object-id>1208270</object-id>
-        <state-number>13190325</state-number>
+        <state-number>20056159</state-number>
       </table>
       <table id="9" parent="2" name="user">
         <object-id>1207949</object-id>
@@ -20048,9 +20048,9 @@
         <data-type>varchar(255)</data-type>
       </column>
       <column id="3561" parent="8" name="date_of_birth">
-        <state-number>13190325</state-number>
+        <state-number>20056159</state-number>
         <mandatory>1</mandatory>
-        <data-type>date</data-type>
+        <data-type>timestamp</data-type>
       </column>
       <column id="3562" parent="8" name="address1">
         <state-number>13190325</state-number>
