@@ -13,7 +13,7 @@ import java.net.URISyntaxException;
 public class MainConfig {
 
     @Bean
-    public BasicDataSource dataSource() throws URISyntaxException {
+    public BasicDataSource datasource() throws URISyntaxException {
         String dbUrl = System.getenv("JDBC_DATABASE_URL");
         String username = System.getenv("JDBC_DATABASE_USERNAME");
         String password = System.getenv("JDBC_DATABASE_PASSWORD");

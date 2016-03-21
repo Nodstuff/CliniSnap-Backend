@@ -10,8 +10,8 @@
       <schema id="2" parent="1" name="public">
         <object-id>2200</object-id>
         <comment>standard public schema</comment>
-        <introspection-state-number>20043651</introspection-state-number>
-        <introspection-timestamp>2016-03-21.16:26:47.615</introspection-timestamp>
+        <introspection-state-number>20046373</introspection-state-number>
+        <introspection-timestamp>2016-03-21.16:36:19.929</introspection-timestamp>
       </schema>
       <schema id="3" parent="1" name="pg_catalog">
         <object-id>11</object-id>
@@ -33,7 +33,7 @@
       </sequence>
       <table id="7" parent="2" name="image">
         <object-id>1343059</object-id>
-        <state-number>20043651</state-number>
+        <state-number>20046373</state-number>
       </table>
       <table id="8" parent="2" name="patient">
         <object-id>1208270</object-id>
@@ -19982,9 +19982,9 @@
         <default-expression>nextval(&apos;image_id_seq&apos;::regclass)</default-expression>
       </column>
       <column id="3548" parent="7" name="mrn">
-        <state-number>15367108</state-number>
+        <state-number>20046373</state-number>
         <mandatory>1</mandatory>
-        <data-type>integer</data-type>
+        <data-type>varchar(255)</data-type>
       </column>
       <column id="3549" parent="7" name="encoded_image">
         <state-number>17112185</state-number>

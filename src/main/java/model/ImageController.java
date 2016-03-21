@@ -22,6 +22,7 @@ public class ImageController {
 
     @Autowired
     private DataSource datasource;
+
     private String encoded = "";
     private String mrn = "";
 
@@ -29,7 +30,7 @@ public class ImageController {
     public void saveImage(@RequestParam MultiValueMap<String, String> paramMap){
         mrn = paramMap.getFirst("mrn");
         encoded = paramMap.getFirst("encodedImage");
-        connect(encoded);
+        connect(encoded, mrn);
     }
 
     @RequestMapping("/view-image")
@@ -37,7 +38,7 @@ public class ImageController {
         return "data:image/webp;base64,"+encoded;
     }
 
-    public void connect(String encodedImage){
+    public void connect(String encodedImage, String mrn){
         String sql = "INSERT INTO \"films\"" +
                 "(mrn, encoded_image, create_dttm, created_by, modif_by, modif_dttm) " +
                 "VALUES (?, ?, ?, ?, ?, ?)";
@@ -47,7 +48,7 @@ public class ImageController {
         try {
             conn = datasource.getConnection();
             PreparedStatement ps = conn.prepareStatement(sql);
-            ps.setInt(1, 99999);
+            ps.setString(1, mrn);
             ps.setString(2,encodedImage);
             ps.setTimestamp(3, new Timestamp(Calendar.getInstance().getTimeInMillis()));
             ps.setString(4, "Tom Meaney");
