@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61e30efb-a7a7-44ec-8884-8b463ed4054c" name="Default" comment="remove .idea folder">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/crypto/AESCrypto.java" afterPath="$PROJECT_DIR$/src/main/java/crypto/AESCrypto.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/model/LoginController.java" />
-    </list>
+    <list default="true" id="61e30efb-a7a7-44ec-8884-8b463ed4054c" name="Default" comment="remove .idea folder" />
     <ignored path="CliniSnap-Backend.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -791,7 +788,7 @@
       <workItem from="1458125176420" duration="6967000" />
       <workItem from="1458148906984" duration="1713000" />
       <workItem from="1458299117360" duration="605000" />
-      <workItem from="1458559395852" duration="1852000" />
+      <workItem from="1458559395852" duration="2447000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1456308203355</created>
@@ -815,7 +812,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70522000" />
+    <option name="totallyTimeSpent" value="71117000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
