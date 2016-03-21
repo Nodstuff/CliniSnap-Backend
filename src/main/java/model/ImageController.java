@@ -39,7 +39,7 @@ public class ImageController {
     }
 
     public void connect(String encodedImage, String mrn){
-        String sql = "INSERT INTO \"films\"" +
+        String sql = "INSERT INTO \"image\"" +
                 "(mrn, encoded_image, create_dttm, created_by, modif_by, modif_dttm) " +
                 "VALUES (?, ?, ?, ?, ?, ?)";
 
