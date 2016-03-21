@@ -1,11 +1,12 @@
 package model;
 
-import crypto.AESCrypto;
+import crypto.AESCrypt;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.sql.DataSource;
+import java.security.GeneralSecurityException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
@@ -25,7 +26,13 @@ public class LoginController {
     public EncryptedToken login() {
         UUID idOne = UUID.randomUUID();
         connect(idOne);
-        return new EncryptedToken(AESCrypto.encrypt(testKey,"testing"));
+        try {
+            return new EncryptedToken(AESCrypt.encrypt(testKey,"testing"));
+        } catch (GeneralSecurityException e) {
+            e.printStackTrace();
+        }
+
+        return new EncryptedToken(null);
     }
 
     public void connect(UUID uuid){
