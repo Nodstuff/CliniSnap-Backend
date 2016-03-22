@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+        <!--<bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource"-->
+              <!--destroy-method="close">-->
+            <!--<property name="driverClassName" value="org.postgresql.Driver" />-->
+            <!--<property name="url" value="jdbc:postgresql://ec2-107-20-148-211.compute-1.amazonaws.com:5432/dd3s7e6kmggak8?ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory" />-->
+            <!--<property name="username" value="iltpegaqncjjob" />-->
+            <!--<property name="password" value="f_Yqm9XwT67OUfD2Eohi_IQKhZ" />-->
+        <!--</bean>-->
+
+
+        <bean id="hibernate4AnnotatedSessionFactory"
+              class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+            <property name="dataSource" ref="datasource" />
+            <property name="annotatedClasses">
+                <list>
+                    <!--<value>xyz.nodstuff.domain.Role</value>-->
+                    <!--<value>xyz.nodstuff.domain.Participant</value>-->
+                    <!--<value>xyz.nodstuff.domain.Exhibit</value>-->
+                    <!--<value>xyz.nodstuff.domain.Participation</value>-->
+                    <!--<value>xyz.nodstuff.domain.Image</value>-->
+                    <!--<value>xyz.nodstuff.domain.Likes</value>-->
+                    <!--<value>xyz.nodstuff.domain.Tags</value>-->
+                    <!--<value>xyz.nodstuff.domain.Users_Likes</value>-->
+                </list>
+            </property>
+
+
+            <property name="hibernateProperties">
+                <props>
+                    <prop key="hibernate.dialect">org.hibernate.dialect.PostgresPlusDialect</prop>
+                    <prop key="hibernate.current_session_context_class">thread</prop>
+                    <prop key="hibernate.show_sql">false</prop>
+                    <!-- Show all executed SQL to stdout -->
+                    <prop key="show_sql">true</prop>
+                    <!-- Drop and re-create the database schema on startup -->
+                    <prop key="hbm2ddl.auto">create</prop>
+                </props>
+            </property>
+        </bean>
+
+        <!--<bean id="projectDAO" class="xyz.nodstuff.db.ProjectDAO">-->
+            <!--<property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>-->
+        <!--</bean>-->
+
+
+
+
+
+</beans>
