@@ -15,5 +15,7 @@ public interface PatientDAO extends CrudRepository<Patient, Long> {
      * @param mrn the user mrn.
      */
     Patient findByMrn(String mrn);
+    Patient findById(int id);
+
 
 } // class UserDao

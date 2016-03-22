@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.sql.Timestamp;
 
 /**
  * Created by tmeaney on 11/02/16.
@@ -22,10 +23,14 @@ public class Patient {
     private String mrn;
     private String fname;
     private String sname;
-    private String dob;
+    private Timestamp dob;
     private String address1;
     private String address2;
     private String address3;
     private String phone;
+    private String created_by;
+    private Timestamp create_dttm;
+    private String modif_by;
+    private Timestamp modif_dttm;
 
 }
