@@ -17,7 +17,7 @@
             <property name="dataSource" ref="datasource" />
             <property name="annotatedClasses">
                 <list>
-                    <!--<value>xyz.nodstuff.domain.Role</value>-->
+                    <value>model.Patient</value>
                     <!--<value>xyz.nodstuff.domain.Participant</value>-->
                     <!--<value>xyz.nodstuff.domain.Exhibit</value>-->
                     <!--<value>xyz.nodstuff.domain.Participation</value>-->
