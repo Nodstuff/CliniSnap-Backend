@@ -32,15 +32,15 @@ public class PatientsController {
 
     public void insert(Patient patient){
 
-        Date parsedDate = null;
-
-        String dateInString = patient.getDate_of_birth().toString();
-        SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
-        try {
-            parsedDate = formatter.parse(dateInString);
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
+//        Date parsedDate = null;
+//
+//        String dateInString = patient.getDate_of_birth().toString();
+//        SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
+//        try {
+//            parsedDate = formatter.parse(dateInString);
+//        } catch (ParseException e) {
+//            e.printStackTrace();
+//        }
 
         String sql = "INSERT INTO \"patient\"" +
                 "(mrn, fname, sname, date_of_birth, address1, address2, address3," +
@@ -55,7 +55,7 @@ public class PatientsController {
             ps.setString(1, patient.getMrn());
             ps.setString(2,patient.getFname());
             ps.setString(3,patient.getSname());
-            ps.setTimestamp(4,new Timestamp(parsedDate.getTime()));
+//            ps.setTimestamp(4,new Timestamp(parsedDate.getTime()));
             ps.setString(5,patient.getAddress1());
             ps.setString(6,patient.getAddress2());
             ps.setString(7,patient.getAddress3());
@@ -98,7 +98,7 @@ public class PatientsController {
                 p.setMrn(rs.getString("mrn"));
                 p.setFname(rs.getString("fname"));
                 p.setSname(rs.getString("sname"));
-                p.setDate_of_birth(rs.getTimestamp("date_of_birth"));
+//                p.setDate_of_birth(rs.getTimestamp("date_of_birth"));
                 p.setAddress1(rs.getString("address1"));
                 p.setAddress2(rs.getString("address2"));
                 p.setAddress3(rs.getString("address3"));

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61e30efb-a7a7-44ec-8884-8b463ed4054c" name="Default" comment="remove .idea folder">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/Patient.java" afterPath="$PROJECT_DIR$/src/main/java/model/Patient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/PatientsController.java" afterPath="$PROJECT_DIR$/src/main/java/model/PatientsController.java" />
     </list>
     <ignored path="CliniSnap-Backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -101,24 +101,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PatientsController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PatientsController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/PatientsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+            <state vertical-scroll-proportion="1.9248879">
+              <caret line="101" column="23" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1458674240316" expanded="true" signature="1214:1461" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-                <marker date="1458674240316" expanded="true" signature="2720:2779" placeholder="SELECT * FRO... patient" />
+                <marker date="1458679177413" expanded="true" signature="1232:1479" placeholder="INSERT INTO \&quot;patient\&quot;... " />
+                <marker date="1458679177413" expanded="true" signature="2740:2799" placeholder="SELECT * FRO... patient" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Patient.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Patient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/Patient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55269057">
+            <state vertical-scroll-proportion="0.0">
               <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
@@ -263,8 +263,8 @@
         <option value="$PROJECT_DIR$/src/main/java/model/PatientDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/DAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/PatientsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Patient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/PatientsController.java" />
       </list>
     </option>
   </component>
@@ -845,7 +845,7 @@
       <workItem from="1458299117360" duration="605000" />
       <workItem from="1458559395852" duration="11907000" />
       <workItem from="1458645782597" duration="14256000" />
-      <workItem from="1458671482613" duration="4299000" />
+      <workItem from="1458671482613" duration="4520000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1456308203355</created>
@@ -869,7 +869,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99132000" />
+    <option name="totallyTimeSpent" value="99353000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -963,8 +963,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1458674240316" expanded="true" signature="1214:1461" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1458674240316" expanded="true" signature="2720:2779" placeholder="SELECT * FRO... patient" />
+            <marker date="1458679177413" expanded="true" signature="1232:1479" placeholder="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1458679177413" expanded="true" signature="2740:2799" placeholder="SELECT * FRO... patient" />
           </folding>
         </state>
       </provider>
@@ -991,8 +991,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1458674240316" expanded="true" signature="1214:1461" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1458674240316" expanded="true" signature="2720:2779" placeholder="SELECT * FRO... patient" />
+            <marker date="1458679177413" expanded="true" signature="1232:1479" placeholder="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1458679177413" expanded="true" signature="2740:2799" placeholder="SELECT * FRO... patient" />
           </folding>
         </state>
       </provider>
@@ -1019,8 +1019,8 @@
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1458674240316" expanded="true" signature="1214:1461" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1458674240316" expanded="true" signature="2720:2779" placeholder="SELECT * FRO... patient" />
+            <marker date="1458679177413" expanded="true" signature="1232:1479" placeholder="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1458679177413" expanded="true" signature="2740:2799" placeholder="SELECT * FRO... patient" />
           </folding>
         </state>
       </provider>
@@ -1047,8 +1047,8 @@
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1458674240316" expanded="true" signature="1214:1461" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1458674240316" expanded="true" signature="2720:2779" placeholder="SELECT * FRO... patient" />
+            <marker date="1458679177413" expanded="true" signature="1232:1479" placeholder="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1458679177413" expanded="true" signature="2740:2799" placeholder="SELECT * FRO... patient" />
           </folding>
         </state>
       </provider>
@@ -1075,8 +1075,8 @@
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1458674240316" expanded="true" signature="1214:1461" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1458674240316" expanded="true" signature="2720:2779" placeholder="SELECT * FRO... patient" />
+            <marker date="1458679177413" expanded="true" signature="1232:1479" placeholder="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1458679177413" expanded="true" signature="2740:2799" placeholder="SELECT * FRO... patient" />
           </folding>
         </state>
       </provider>
@@ -1103,8 +1103,8 @@
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1458674240316" expanded="true" signature="1214:1461" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1458674240316" expanded="true" signature="2720:2779" placeholder="SELECT * FRO... patient" />
+            <marker date="1458679177413" expanded="true" signature="1232:1479" placeholder="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1458679177413" expanded="true" signature="2740:2799" placeholder="SELECT * FRO... patient" />
           </folding>
         </state>
       </provider>
@@ -1131,8 +1131,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1458674240316" expanded="true" signature="1214:1461" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1458674240316" expanded="true" signature="2720:2779" placeholder="SELECT * FRO... patient" />
+            <marker date="1458679177413" expanded="true" signature="1232:1479" placeholder="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1458679177413" expanded="true" signature="2740:2799" placeholder="SELECT * FRO... patient" />
           </folding>
         </state>
       </provider>
@@ -1167,8 +1167,8 @@
           <caret line="16" column="87" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1458674240316" expanded="true" signature="1214:1461" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1458674240316" expanded="true" signature="2720:2779" placeholder="SELECT * FRO... patient" />
+            <marker date="1458679177413" expanded="true" signature="1232:1479" placeholder="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1458679177413" expanded="true" signature="2740:2799" placeholder="SELECT * FRO... patient" />
           </folding>
         </state>
       </provider>
@@ -1374,18 +1374,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/PatientsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1458674240316" expanded="true" signature="1214:1461" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1458674240316" expanded="true" signature="2720:2779" placeholder="SELECT * FRO... patient" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.11.2.RELEASE/spring-data-commons-1.11.2.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13805105">
@@ -1406,9 +1394,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Patient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55269057">
+        <state vertical-scroll-proportion="0.0">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/PatientsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9248879">
+          <caret line="101" column="23" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1458679177413" expanded="true" signature="1232:1479" placeholder="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1458679177413" expanded="true" signature="2740:2799" placeholder="SELECT * FRO... patient" />
+          </folding>
         </state>
       </provider>
     </entry>
