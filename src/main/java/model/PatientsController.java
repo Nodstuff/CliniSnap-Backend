@@ -1,11 +1,11 @@
 package model;
 
+import org.apache.commons.dbcp2.BasicDataSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.sql.DataSource;
 import java.sql.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -19,7 +19,7 @@ import java.util.Date;
 public class PatientsController {
 
     @Autowired
-    private DataSource datasource;
+    private BasicDataSource datasource;
 
     @RequestMapping("/patient")
     public Patient patient(@RequestParam(value = "mrn", defaultValue = "") String mrn) {
