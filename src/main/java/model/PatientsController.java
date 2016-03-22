@@ -34,7 +34,7 @@ public class PatientsController {
 
         Date parsedDate = null;
 
-        String dateInString = patient.getDob();
+        String dateInString = patient.getDate_of_birth().toString();
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
         try {
             parsedDate = formatter.parse(dateInString);
@@ -98,7 +98,7 @@ public class PatientsController {
                 p.setMrn(rs.getString("mrn"));
                 p.setFname(rs.getString("fname"));
                 p.setSname(rs.getString("sname"));
-                p.setDob(rs.getString("date_of_birth"));
+                p.setDate_of_birth(rs.getTimestamp("date_of_birth"));
                 p.setAddress1(rs.getString("address1"));
                 p.setAddress2(rs.getString("address2"));
                 p.setAddress3(rs.getString("address3"));
