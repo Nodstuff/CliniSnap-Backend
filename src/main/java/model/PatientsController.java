@@ -23,7 +23,8 @@ public class PatientsController {
 
     @RequestMapping("/patient")
     public Patient patient(@RequestParam(value = "mrn", defaultValue = "") String mrn) {
-        return retrieve(mrn);
+        //return retrieve(mrn);
+        return new ProjectDAO().getWithMrn(mrn);
     }
 
     public void insert(Patient patient){

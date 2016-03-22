@@ -9,6 +9,7 @@ import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
+import org.hibernate.criterion.Restrictions;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.ArrayList;
@@ -124,6 +125,43 @@ public class ProjectDAO implements DAO {
 
         return o;
     }
+
+
+    public Patient getWithMrn(String mrn) {
+        log.debug("Class: " + this.getClass().getName() + "; Method: getListPatients; Message: entering method");
+
+        //Open Hibernate Session
+        Session session = this.sessionFactory.openSession();
+
+        Patient p = null;
+
+        try {
+            session.beginTransaction();
+
+            Criteria crit = session.createCriteria(Patient.class);
+            crit.add(Restrictions.eq("mrn",mrn));
+
+            p = (Patient)crit.uniqueResult();
+
+            session.getTransaction().commit();
+
+        } catch (Exception e) {
+
+            log.error("Class: " + this.getClass().getName() + "; Method: getListParticipations; Message: Cannot retrieve list of Participants", e);
+
+            session.getTransaction().rollback();
+
+        } finally {
+
+            session.close();
+
+        }
+
+        log.debug("Class: " + this.getClass().getName() + "; Method: getListParticipations; Message: leaving method");
+
+        return p;
+    }
+
 
 
     public List<Patient> getList() {
