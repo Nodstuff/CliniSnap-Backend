@@ -20,6 +20,7 @@ public class LoginController {
 
     @Autowired
     private DataSource datasource;
+    
     private String testKey = "helloworld";
 
     @RequestMapping("/login")
@@ -32,7 +33,7 @@ public class LoginController {
             e.printStackTrace();
         }
 
-        return new EncryptedToken(null);
+        return new EncryptedToken(idOne.toString());
     }
 
     public void connect(UUID uuid){
