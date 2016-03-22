@@ -6,10 +6,10 @@
 
         <bean id="datasource" class="org.apache.commons.dbcp2.BasicDataSource"
               destroy-method="close">
-            <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-            <property name="url" value="jdbc:mysql://assignment1.cfu9nbayzl0a.us-west-2.rds.amazonaws.com:3306/assignment1" />
-            <property name="username" value="nodstuff" />
-            <property name="password" value="helloworld" />
+            <property name="driverClassName" value="org.postgresql.Driver" />
+            <property name="url" value="jdbc:postgresql://ec2-107-20-148-211.compute-1.amazonaws.com:5432/dd3s7e6kmggak8?ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory" />
+            <property name="username" value="iltpegaqncjjob" />
+            <property name="password" value="f_Yqm9XwT67OUfD2Eohi_IQKhZ" />
         </bean>
 
 
