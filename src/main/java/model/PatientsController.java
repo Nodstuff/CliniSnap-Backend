@@ -126,10 +126,13 @@ public class PatientsController {
             ps.setString(1, mrn);
             ResultSet rs = ps.executeQuery();
 
-            p.setMrn(rs.getString("mrn"));
-            p.setFname(rs.getString("fname"));
-            p.setSname(rs.getString("sname"));
-            p.setDob(rs.getString("date_of_birth"));
+            if(rs.next()){
+                p.setMrn(rs.getString("mrn"));
+                p.setFname(rs.getString("fname"));
+                p.setSname(rs.getString("sname"));
+                p.setDob(rs.getString("date_of_birth"));
+            }
+
             ps.close();
 
         } catch (SQLException e) {
