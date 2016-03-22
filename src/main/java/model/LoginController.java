@@ -1,11 +1,11 @@
 package model;
 
 import crypto.AESCrypt;
-import org.apache.commons.dbcp2.BasicDataSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.sql.DataSource;
 import java.security.GeneralSecurityException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -19,7 +19,7 @@ import java.util.UUID;
 public class LoginController {
 
     @Autowired
-    private BasicDataSource datasource;
+    private DataSource datasource;
     private String testKey = "helloworld";
 
     @RequestMapping("/login")
