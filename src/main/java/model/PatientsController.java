@@ -21,10 +21,13 @@ public class PatientsController {
     @Autowired
     private DataSource datasource;
 
+    @Autowired
+    PatientDAO patientDAO;
+
     @RequestMapping("/patient")
     public Patient patient(@RequestParam(value = "mrn", defaultValue = "") String mrn) {
         //return retrieve(mrn);
-        return new ProjectDAO().getWithMrn(mrn);
+        return patientDAO.findByMrn(mrn);
     }
 
     public void insert(Patient patient){
