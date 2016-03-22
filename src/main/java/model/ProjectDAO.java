@@ -11,6 +11,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ImportResource;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,6 +20,8 @@ import java.util.List;
  * Created by nodstuff on 13/10/15.
  */
 @Slf4j
+@ImportResource("classpath:spring-config.xml")
+
 public class ProjectDAO implements DAO {
 
     @Autowired
