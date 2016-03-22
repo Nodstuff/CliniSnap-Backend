@@ -9,7 +9,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor;
 import org.springframework.orm.hibernate4.HibernateTransactionManager;
 import org.springframework.orm.hibernate4.LocalSessionFactoryBean;
-import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import javax.sql.DataSource;
 import java.net.URISyntaxException;
@@ -18,7 +17,6 @@ import java.util.Properties;
 /**
  * Created by tmeaney on 16/03/16.
  */
-@EnableTransactionManagement
 @ComponentScan({ "model" })
 @Configuration
 public class MainConfig {
@@ -29,7 +27,7 @@ public class MainConfig {
     public LocalSessionFactoryBean sessionFactory() throws URISyntaxException {
         LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
         sessionFactory.setDataSource(datasource());
-        sessionFactory.setPackagesToScan(new String[] { "org.baeldung.spring.persistence.model" });
+        sessionFactory.setPackagesToScan(new String[] { "model" });
         sessionFactory.setHibernateProperties(hibernateProperties());
 
         return sessionFactory;
