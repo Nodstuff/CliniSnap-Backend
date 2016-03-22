@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61e30efb-a7a7-44ec-8884-8b463ed4054c" name="Default" comment="remove .idea folder">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/model/DAO.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/Patient.java" afterPath="$PROJECT_DIR$/src/main/java/model/Patient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/PatientDAO.java" afterPath="$PROJECT_DIR$/src/main/java/model/PatientDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/SecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/model/SecurityConfig.java" />
     </list>
     <ignored path="CliniSnap-Backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -118,11 +114,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Patient.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Patient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/Patient.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.38116592">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dd3s7e6kmggak8.public.patient" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/d8311ab/d8aa4324-1664-4ec4-855d-5001861e02cb/dd3s7e6kmggak8.public.patient">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -140,10 +151,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4955157">
+            <state vertical-scroll-proportion="0.0">
               <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -266,10 +277,10 @@
         <option value="$PROJECT_DIR$/src/main/java/model/MainConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/PatientsController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Patient.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/PatientDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/DAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Patient.java" />
       </list>
     </option>
   </component>
@@ -850,7 +861,7 @@
       <workItem from="1458299117360" duration="605000" />
       <workItem from="1458559395852" duration="11907000" />
       <workItem from="1458645782597" duration="14256000" />
-      <workItem from="1458671482613" duration="1039000" />
+      <workItem from="1458671482613" duration="1324000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1456308203355</created>
@@ -874,7 +885,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95872000" />
+    <option name="totallyTimeSpent" value="96157000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1256,18 +1267,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/d8311ab/d8aa4324-1664-4ec4-855d-5001861e02cb/dd3s7e6kmggak8.public.patient">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Alert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1351,14 +1350,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Patient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/PatientDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1381,11 +1372,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4955157">
+        <state vertical-scroll-proportion="0.0">
           <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/d8311ab/d8aa4324-1664-4ec4-855d-5001861e02cb/dd3s7e6kmggak8.public.patient">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Patient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38116592">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
