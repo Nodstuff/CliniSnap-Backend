@@ -3,13 +3,13 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-        <!--<bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource"-->
-              <!--destroy-method="close">-->
-            <!--<property name="driverClassName" value="org.postgresql.Driver" />-->
-            <!--<property name="url" value="jdbc:postgresql://ec2-107-20-148-211.compute-1.amazonaws.com:5432/dd3s7e6kmggak8?ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory" />-->
-            <!--<property name="username" value="iltpegaqncjjob" />-->
-            <!--<property name="password" value="f_Yqm9XwT67OUfD2Eohi_IQKhZ" />-->
-        <!--</bean>-->
+        <bean id="datasource" class="org.apache.commons.dbcp2.BasicDataSource"
+              destroy-method="close">
+            <property name="driverClassName" value="org.postgresql.Driver" />
+            <property name="url" value="jdbc:postgresql://ec2-107-20-148-211.compute-1.amazonaws.com:5432/dd3s7e6kmggak8?ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory" />
+            <property name="username" value="iltpegaqncjjob" />
+            <property name="password" value="f_Yqm9XwT67OUfD2Eohi_IQKhZ" />
+        </bean>
 
 
         <bean id="hibernate4AnnotatedSessionFactory"
