@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-        <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource"
+        <bean id="datasource" class="org.apache.commons.dbcp2.BasicDataSource"
               destroy-method="close">
             <property name="driverClassName" value="com.mysql.jdbc.Driver" />
             <property name="url" value="jdbc:mysql://assignment1.cfu9nbayzl0a.us-west-2.rds.amazonaws.com:3306/assignment1" />
@@ -15,7 +15,7 @@
 
         <bean id="hibernate4AnnotatedSessionFactory"
               class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
-            <property name="dataSource" ref="dataSource" />
+            <property name="dataSource" ref="datasource" />
             <property name="annotatedClasses">
                 <list>
                     <value>model.Patient</value>
