@@ -1,6 +1,8 @@
 package model;
 
 import org.apache.commons.dbcp2.BasicDataSource;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;
@@ -13,6 +15,9 @@ import java.net.URISyntaxException;
 @Configuration
 @ImportResource("classpath:spring-config.xml")
 public class MainConfig {
+
+    @Autowired
+    SessionFactory sessionFactory;
 
     @Bean
     public BasicDataSource datasource() throws URISyntaxException {
@@ -27,4 +32,5 @@ public class MainConfig {
 
         return basicDataSource;
     }
+
 }

@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="61e30efb-a7a7-44ec-8884-8b463ed4054c" name="Default" comment="remove .idea folder">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/MainConfig.java" afterPath="$PROJECT_DIR$/src/main/java/model/MainConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/ProjectDAO.java" afterPath="$PROJECT_DIR$/src/main/java/model/ProjectDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/SecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/model/SecurityConfig.java" />
     </list>
     <ignored path="CliniSnap-Backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -155,11 +153,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-config.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="spring-config.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075">
-              <caret line="11" column="75" selection-start-line="8" selection-start-column="12" selection-end-line="11" selection-end-column="75" />
+            <state vertical-scroll-proportion="1.3840708">
+              <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -195,11 +193,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainConfig.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/MainConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39593908">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -874,7 +872,7 @@
       <workItem from="1458148906984" duration="1713000" />
       <workItem from="1458299117360" duration="605000" />
       <workItem from="1458559395852" duration="11907000" />
-      <workItem from="1458645782597" duration="12397000" />
+      <workItem from="1458645782597" duration="12642000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1456308203355</created>
@@ -898,7 +896,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92974000" />
+    <option name="totallyTimeSpent" value="93219000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1428,14 +1426,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
-          <caret line="11" column="75" selection-start-line="8" selection-start-column="12" selection-end-line="11" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1468,11 +1458,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/MainConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39593908">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3840708">
+          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
