@@ -131,6 +131,10 @@ public class PatientsController {
                 p.setFname(rs.getString("fname"));
                 p.setSname(rs.getString("sname"));
                 p.setDob(rs.getString("date_of_birth"));
+                p.setAddress1(rs.getString("address1"));
+                p.setAddress2(rs.getString("address2"));
+                p.setAddress3(rs.getString("address3"));
+                p.setPhone(rs.getString("phone"));
             }
 
             ps.close();
