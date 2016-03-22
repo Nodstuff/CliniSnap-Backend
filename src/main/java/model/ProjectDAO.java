@@ -20,8 +20,6 @@ import java.util.List;
  * Created by nodstuff on 13/10/15.
  */
 @Slf4j
-@ImportResource("classpath:spring-config.xml")
-
 public class ProjectDAO implements DAO {
 
     @Autowired
