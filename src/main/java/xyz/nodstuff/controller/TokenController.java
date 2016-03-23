@@ -22,7 +22,7 @@ public class TokenController {
 
         User user = userDAO.findByAuthtoken(authToken);
 
-        user.setPush_token(token);
+        user.setPushtoken(token);
 
         userDAO.save(user);
 

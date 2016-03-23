@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61e30efb-a7a7-44ec-8884-8b463ed4054c" name="Default" comment="remove .idea folder">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/LoginController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/TokenController.java" afterPath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/TokenController.java" />
     </list>
     <ignored path="CliniSnap-Backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -116,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TokenController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TokenController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/TokenController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.514574">
+              <caret line="33" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -198,10 +198,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4383408">
+            <state vertical-scroll-proportion="0.0">
               <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
               <folding />
             </state>
@@ -293,9 +293,9 @@
         <option value="dbtable:/d8311ab/d8aa4324-1664-4ec4-855d-5001861e02cb/dd3s7e6kmggak8.public.patient" />
         <option value="dbtable:/d8311ab/d8aa4324-1664-4ec4-855d-5001861e02cb/dd3s7e6kmggak8.public.users" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/nodstuff/interfaces/UserDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/TokenController.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/TokenController.java" />
       </list>
     </option>
   </component>
@@ -1068,7 +1068,7 @@
       <workItem from="1458559395852" duration="11907000" />
       <workItem from="1458645782597" duration="14256000" />
       <workItem from="1458671482613" duration="6454000" />
-      <workItem from="1458736569270" duration="11038000" />
+      <workItem from="1458736569270" duration="11084000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1456308203355</created>
@@ -1092,7 +1092,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112325000" />
+    <option name="totallyTimeSpent" value="112371000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1603,14 +1603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/TokenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1621,8 +1613,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4383408">
+        <state vertical-scroll-proportion="0.0">
           <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/TokenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.514574">
+          <caret line="33" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
