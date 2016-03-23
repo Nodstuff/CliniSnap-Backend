@@ -11,7 +11,7 @@ import java.sql.Date;
  * Created by tmeaney on 24/02/16.
  */
 @Entity
-@Table(name = "user")
+@Table(name = "users")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -19,7 +19,7 @@ public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
     private String username;
     private String useremail;
     private String userpword;
