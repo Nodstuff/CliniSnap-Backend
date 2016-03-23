@@ -18,9 +18,9 @@ public class TokenController {
     UserDAO userDAO;
 
     @RequestMapping("/token")
-    public void saveToken(@RequestParam(value = "token", defaultValue = "") String token, @RequestParam(value = "userId") int userId){
+    public void saveToken(@RequestParam(value = "token", defaultValue = "") String token, @RequestParam(value = "authToken") String authToken){
 
-        User user = userDAO.findById(userId);
+        User user = userDAO.findByAuthtoken(authToken);
 
         user.setPush_token(token);
 

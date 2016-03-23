@@ -10,8 +10,8 @@
       <schema id="2" parent="1" name="public">
         <object-id>2200</object-id>
         <comment>standard public schema</comment>
-        <introspection-state-number>21100531</introspection-state-number>
-        <introspection-timestamp>2016-03-23.18:49:12.852</introspection-timestamp>
+        <introspection-state-number>21104519</introspection-state-number>
+        <introspection-timestamp>2016-03-23.19:01:32.998</introspection-timestamp>
       </schema>
       <schema id="3" parent="1" name="pg_catalog">
         <object-id>11</object-id>
@@ -20265,42 +20265,42 @@ mapped_key</columns>
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="3607" parent="13" name="auth_token">
-        <state-number>13184194</state-number>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <column id="3608" parent="13" name="push_token">
-        <state-number>13184194</state-number>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <column id="3609" parent="13" name="created_by">
+      <column id="3607" parent="13" name="created_by">
         <state-number>13184194</state-number>
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="3610" parent="13" name="create_dttm">
+      <column id="3608" parent="13" name="create_dttm">
         <state-number>13184194</state-number>
         <mandatory>1</mandatory>
         <data-type>timestamp</data-type>
       </column>
-      <column id="3611" parent="13" name="modif_by">
+      <column id="3609" parent="13" name="modif_by">
         <state-number>13184194</state-number>
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="3612" parent="13" name="modif_dttm">
+      <column id="3610" parent="13" name="modif_dttm">
         <state-number>13184194</state-number>
         <mandatory>1</mandatory>
         <data-type>timestamp</data-type>
       </column>
-      <column id="3613" parent="13" name="useremail">
+      <column id="3611" parent="13" name="useremail">
         <state-number>21094261</state-number>
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="3614" parent="13" name="userpword">
+      <column id="3612" parent="13" name="userpword">
         <state-number>21094344</state-number>
         <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="3613" parent="13" name="authtoken">
+        <state-number>21103589</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="3614" parent="13" name="pushtoken">
+        <state-number>21104517</state-number>
         <data-type>varchar(255)</data-type>
       </column>
       <index id="3615" parent="13" name="user_id_uindex">
@@ -20322,20 +20322,20 @@ mapped_key</columns>
         <unique>1</unique>
       </index>
       <index id="3618" parent="13" name="user_auth_token_uindex">
-        <object-id>1207962</object-id>
-        <columns>auth_token</columns>
+        <object-id>1499617</object-id>
+        <columns>create_dttm</columns>
         <desc-columns></desc-columns>
         <unique>1</unique>
       </index>
       <index id="3619" parent="13" name="user_push_token_uindex">
-        <object-id>1207961</object-id>
-        <columns>push_token</columns>
+        <object-id>1499647</object-id>
+        <columns>modif_dttm</columns>
         <desc-columns></desc-columns>
         <unique>1</unique>
       </index>
       <index id="3620" parent="13" name="user_user_email_uindex">
-        <object-id>1499366</object-id>
-        <columns>push_token</columns>
+        <object-id>1499648</object-id>
+        <columns>modif_dttm</columns>
         <desc-columns></desc-columns>
         <unique>1</unique>
       </index>
