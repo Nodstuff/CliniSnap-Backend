@@ -23,8 +23,8 @@ public class User {
     private String username;
     private String useremail;
     private String userpword;
-    private String auth_token;
-    private String push_token;
+    private String authtoken;
+    private String pushtoken;
     private String created_by;
     private Date create_dttm;
     private String modif_by;
