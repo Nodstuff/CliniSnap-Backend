@@ -27,7 +27,7 @@ public class TokenController {
         userDAO.save(user);
 
         //Todo add token to database here and store under user ID
-        GcmSender g = new GcmSender();
-        g.sendMessage("Hello, World!",token);
+        GcmSender sender = new GcmSender();
+        sender.sendMessage("Hello, World!",user.getPushtoken());
     }
 }
