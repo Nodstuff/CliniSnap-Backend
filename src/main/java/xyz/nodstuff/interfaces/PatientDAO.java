@@ -1,6 +1,6 @@
-package interfaces;
+package xyz.nodstuff.interfaces;
 
-import model.Patient;
+import xyz.nodstuff.model.Patient;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.transaction.annotation.Transactional;
 

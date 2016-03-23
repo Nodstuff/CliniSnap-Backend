@@ -1,9 +1,9 @@
-package controller;
+package xyz.nodstuff.controller;
 
-import gcm.GcmSender;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import xyz.nodstuff.gcm.GcmSender;
 
 /**
  * Created by tmeaney on 07/03/16.

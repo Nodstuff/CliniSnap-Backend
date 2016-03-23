@@ -1,7 +1,7 @@
-package controller;
+package xyz.nodstuff.controller;
 
-import interfaces.PatientDAO;
-import model.Patient;
+import xyz.nodstuff.interfaces.PatientDAO;
+import xyz.nodstuff.model.Patient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

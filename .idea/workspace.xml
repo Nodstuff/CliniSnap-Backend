@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61e30efb-a7a7-44ec-8884-8b463ed4054c" name="Default" comment="remove .idea folder">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/application/Application.java" afterPath="$PROJECT_DIR$/src/main/java/application/Application.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/application/Application.java" afterPath="$PROJECT_DIR$/src/main/java/xyz/Application.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/config/MainConfig.java" afterPath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/config/MainConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/config/SecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/config/SecurityConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/controller/AlertsController.java" afterPath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/AlertsController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/controller/ImageController.java" afterPath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/ImageController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/LoginController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/controller/PatientsController.java" afterPath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/PatientsController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/controller/TokenController.java" afterPath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/TokenController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/crypto/AESCrypt.java" afterPath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/crypto/AESCrypt.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/gcm/GcmSender.java" afterPath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/gcm/GcmSender.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/interfaces/PatientDAO.java" afterPath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/interfaces/PatientDAO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/Alert.java" afterPath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/Alert.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/EncryptedToken.java" afterPath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/EncryptedToken.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/Patient.java" afterPath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/Patient.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CliniSnap-Backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,21 +95,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="PatientsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/PatientsController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/PatientsController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
               <folding>
-                <marker date="1458741396199" expanded="true" signature="80:398" placeholder="..." />
-                <marker date="1458741396199" expanded="true" signature="1206:1453" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-                <marker date="1458741396199" expanded="true" signature="2714:2773" placeholder="SELECT * FRO... patient" />
+                <marker date="1458741860695" expanded="true" signature="119:437" placeholder="..." />
+                <marker date="1458741860695" expanded="true" signature="1245:1492" placeholder="INSERT INTO \&quot;patient\&quot;... " />
+                <marker date="1458741860695" expanded="true" signature="2753:2812" placeholder="SELECT * FRO... patient" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="TokenController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/TokenController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/TokenController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
@@ -103,55 +118,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlertsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/AlertsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-              <folding>
-                <marker date="1458741396195" expanded="true" signature="1169:1176" placeholder="INSERT INTO " />
-                <marker date="1458741396195" expanded="true" signature="1169:1215" placeholder="INSERT INTO CUSTOMER... " />
-                <marker date="1458741396195" expanded="true" signature="1169:1226" placeholder="INSERT INTO \&quot;user\&quot;... " />
-                <marker date="1458741396195" expanded="true" signature="1169:1237" placeholder="INSERT INTO \&quot;user\&quot;... " />
-                <marker date="1458741396195" expanded="true" signature="1169:1243" placeholder="INSERT INTO \&quot;user\&quot;... " />
-                <marker date="1458741396195" expanded="true" signature="1169:1244" placeholder="INSERT INTO \&quot;user\&quot;... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PatientDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/PatientDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/config/SecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GcmSender.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gcm/GcmSender.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/gcm/GcmSender.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
@@ -160,21 +128,65 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/application/Application.java">
+      <file leaf-file-name="AlertsController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/AlertsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30493274">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PatientDAO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/interfaces/PatientDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.15246637">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/config/SecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AESCrypt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/crypto/AESCrypt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="194" column="5" selection-start-line="194" selection-start-column="5" selection-end-line="194" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
               <folding>
-                <element signature="e#374#375#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
+                <marker date="1458741837222" expanded="true" signature="1208:1215" placeholder="INSERT INTO " />
+                <marker date="1458741837222" expanded="true" signature="1208:1254" placeholder="INSERT INTO CUSTOMER... " />
+                <marker date="1458741837222" expanded="true" signature="1208:1265" placeholder="INSERT INTO \&quot;user\&quot;... " />
+                <marker date="1458741837222" expanded="true" signature="1208:1276" placeholder="INSERT INTO \&quot;user\&quot;... " />
+                <marker date="1458741837222" expanded="true" signature="1208:1282" placeholder="INSERT INTO \&quot;user\&quot;... " />
+                <marker date="1458741837222" expanded="true" signature="1208:1283" placeholder="INSERT INTO \&quot;user\&quot;... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MainConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/config/MainConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/config/MainConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
@@ -186,7 +198,7 @@
         </entry>
       </file>
       <file leaf-file-name="ImageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/ImageController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/ImageController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="69" column="5" selection-start-line="40" selection-start-column="4" selection-end-line="69" selection-end-column="5" />
@@ -265,6 +277,13 @@
         <option value="$PROJECT_DIR$/src/main/java/config/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/gcm/GcmSender.java" />
         <option value="$PROJECT_DIR$/src/main/java/application/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/AlertsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/EncryptedToken.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/nodstuff/crypto/AESCrypt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/TokenController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/nodstuff/gcm/GcmSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/nodstuff/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/nodstuff/interfaces/PatientDAO.java" />
       </list>
     </option>
   </component>
@@ -420,7 +439,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
+              <option name="myItemId" value="xyz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -443,6 +462,44 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xyz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodstuff" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CliniSnap-Backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4th Year Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xyz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodstuff" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -472,6 +529,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="xyz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodstuff" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="gcm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -495,6 +560,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xyz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodstuff" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -524,6 +597,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="xyz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodstuff" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -550,33 +631,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="xyz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodstuff" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CliniSnap-Backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4th Year Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -617,11 +680,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/gcm" />
-      <recent name="$PROJECT_DIR$/src/main/java/config" />
-      <recent name="$PROJECT_DIR$/src/main/java/controller" />
-      <recent name="$PROJECT_DIR$/src/main/java/application" />
-      <recent name="$PROJECT_DIR$/src/main/java/interfaces" />
+      <recent name="$PROJECT_DIR$/src/main/java/xyz/nodstuff/interfaces" />
+      <recent name="$PROJECT_DIR$/src/main/java/xyz/nodstuff/config" />
+      <recent name="$PROJECT_DIR$/src/main/java/xyz/nodstuff/gcm" />
+      <recent name="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller" />
+      <recent name="$PROJECT_DIR$/src/main/java/xyz/nodstuff/crypto" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Application (2)">
@@ -989,7 +1052,7 @@
       <workItem from="1458559395852" duration="11907000" />
       <workItem from="1458645782597" duration="14256000" />
       <workItem from="1458671482613" duration="6454000" />
-      <workItem from="1458736569270" duration="5050000" />
+      <workItem from="1458736569270" duration="5299000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1456308203355</created>
@@ -1013,7 +1076,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106337000" />
+    <option name="totallyTimeSpent" value="106586000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1026,7 +1089,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1041,7 +1104,7 @@
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16132478" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16132478" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22222222" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1078,19 +1141,19 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/PatientsController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/PatientsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1458741396199" expanded="true" signature="80:398" placeholder="..." />
-            <marker date="1458741396199" expanded="true" signature="1206:1453" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1458741396199" expanded="true" signature="2714:2773" placeholder="SELECT * FRO... patient" />
+            <marker date="1458741860695" expanded="true" signature="119:437" placeholder="..." />
+            <marker date="1458741860695" expanded="true" signature="1245:1492" placeholder="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1458741860695" expanded="true" signature="2753:2812" placeholder="SELECT * FRO... patient" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="5" selection-start-line="11" selection-start-column="3" selection-end-line="13" selection-end-column="5" />
@@ -1098,7 +1161,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Patient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/Patient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
@@ -1106,19 +1169,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/PatientsController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/PatientsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1458741396199" expanded="true" signature="80:398" placeholder="..." />
-            <marker date="1458741396199" expanded="true" signature="1206:1453" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1458741396199" expanded="true" signature="2714:2773" placeholder="SELECT * FRO... patient" />
+            <marker date="1458741860695" expanded="true" signature="119:437" placeholder="..." />
+            <marker date="1458741860695" expanded="true" signature="1245:1492" placeholder="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1458741860695" expanded="true" signature="2753:2812" placeholder="SELECT * FRO... patient" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="5" selection-start-line="11" selection-start-column="3" selection-end-line="13" selection-end-column="5" />
@@ -1126,7 +1189,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Patient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/Patient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
@@ -1134,19 +1197,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/PatientsController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/PatientsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <marker date="1458741396199" expanded="true" signature="80:398" placeholder="..." />
-            <marker date="1458741396199" expanded="true" signature="1206:1453" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1458741396199" expanded="true" signature="2714:2773" placeholder="SELECT * FRO... patient" />
+            <marker date="1458741860695" expanded="true" signature="119:437" placeholder="..." />
+            <marker date="1458741860695" expanded="true" signature="1245:1492" placeholder="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1458741860695" expanded="true" signature="2753:2812" placeholder="SELECT * FRO... patient" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1154,7 +1217,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Patient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/Patient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
@@ -1162,19 +1225,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/PatientsController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/PatientsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <marker date="1458741396199" expanded="true" signature="80:398" placeholder="..." />
-            <marker date="1458741396199" expanded="true" signature="1206:1453" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1458741396199" expanded="true" signature="2714:2773" placeholder="SELECT * FRO... patient" />
+            <marker date="1458741860695" expanded="true" signature="119:437" placeholder="..." />
+            <marker date="1458741860695" expanded="true" signature="1245:1492" placeholder="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1458741860695" expanded="true" signature="2753:2812" placeholder="SELECT * FRO... patient" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1182,7 +1245,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Patient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/Patient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
@@ -1190,19 +1253,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/PatientsController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/PatientsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <marker date="1458741396199" expanded="true" signature="80:398" placeholder="..." />
-            <marker date="1458741396199" expanded="true" signature="1206:1453" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1458741396199" expanded="true" signature="2714:2773" placeholder="SELECT * FRO... patient" />
+            <marker date="1458741860695" expanded="true" signature="119:437" placeholder="..." />
+            <marker date="1458741860695" expanded="true" signature="1245:1492" placeholder="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1458741860695" expanded="true" signature="2753:2812" placeholder="SELECT * FRO... patient" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1210,7 +1273,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Patient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/Patient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1218,14 +1281,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/PatientsController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/PatientsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <marker date="1458741396199" expanded="true" signature="80:398" placeholder="..." />
-            <marker date="1458741396199" expanded="true" signature="1206:1453" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1458741396199" expanded="true" signature="2714:2773" placeholder="SELECT * FRO... patient" />
+            <marker date="1458741860695" expanded="true" signature="119:437" placeholder="..." />
+            <marker date="1458741860695" expanded="true" signature="1245:1492" placeholder="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1458741860695" expanded="true" signature="2753:2812" placeholder="SELECT * FRO... patient" />
           </folding>
         </state>
       </provider>
@@ -1238,7 +1301,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Patient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/Patient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
@@ -1246,19 +1309,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/PatientsController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/PatientsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1458741396199" expanded="true" signature="80:398" placeholder="..." />
-            <marker date="1458741396199" expanded="true" signature="1206:1453" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1458741396199" expanded="true" signature="2714:2773" placeholder="SELECT * FRO... patient" />
+            <marker date="1458741860695" expanded="true" signature="119:437" placeholder="..." />
+            <marker date="1458741860695" expanded="true" signature="1245:1492" placeholder="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1458741860695" expanded="true" signature="2753:2812" placeholder="SELECT * FRO... patient" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
@@ -1274,7 +1337,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Patient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/Patient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1282,19 +1345,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/PatientsController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/PatientsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="87" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
           <folding>
-            <marker date="1458741396199" expanded="true" signature="80:398" placeholder="..." />
-            <marker date="1458741396199" expanded="true" signature="1206:1453" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1458741396199" expanded="true" signature="2714:2773" placeholder="SELECT * FRO... patient" />
+            <marker date="1458741860695" expanded="true" signature="119:437" placeholder="..." />
+            <marker date="1458741860695" expanded="true" signature="1245:1492" placeholder="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1458741860695" expanded="true" signature="2753:2812" placeholder="SELECT * FRO... patient" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
@@ -1320,38 +1383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crypto/AESCrypt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="194" column="5" selection-start-line="194" selection-start-column="5" selection-end-line="194" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Alert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/EncryptedToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1384,14 +1415,6 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Patient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1454,15 +1477,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/PatientDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AlertsController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/Alert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/Patient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/EncryptedToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/crypto/AESCrypt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="194" column="5" selection-start-line="194" selection-start-column="5" selection-end-line="194" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/AlertsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
@@ -1470,7 +1536,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ImageController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/ImageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="69" column="5" selection-start-line="40" selection-start-column="4" selection-end-line="69" selection-end-column="5" />
@@ -1480,34 +1546,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
           <folding>
-            <marker date="1458741396195" expanded="true" signature="1169:1176" placeholder="INSERT INTO " />
-            <marker date="1458741396195" expanded="true" signature="1169:1215" placeholder="INSERT INTO CUSTOMER... " />
-            <marker date="1458741396195" expanded="true" signature="1169:1226" placeholder="INSERT INTO \&quot;user\&quot;... " />
-            <marker date="1458741396195" expanded="true" signature="1169:1237" placeholder="INSERT INTO \&quot;user\&quot;... " />
-            <marker date="1458741396195" expanded="true" signature="1169:1243" placeholder="INSERT INTO \&quot;user\&quot;... " />
-            <marker date="1458741396195" expanded="true" signature="1169:1244" placeholder="INSERT INTO \&quot;user\&quot;... " />
+            <marker date="1458741837222" expanded="true" signature="1208:1215" placeholder="INSERT INTO " />
+            <marker date="1458741837222" expanded="true" signature="1208:1254" placeholder="INSERT INTO CUSTOMER... " />
+            <marker date="1458741837222" expanded="true" signature="1208:1265" placeholder="INSERT INTO \&quot;user\&quot;... " />
+            <marker date="1458741837222" expanded="true" signature="1208:1276" placeholder="INSERT INTO \&quot;user\&quot;... " />
+            <marker date="1458741837222" expanded="true" signature="1208:1282" placeholder="INSERT INTO \&quot;user\&quot;... " />
+            <marker date="1458741837222" expanded="true" signature="1208:1283" placeholder="INSERT INTO \&quot;user\&quot;... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/PatientsController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/PatientsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
           <folding>
-            <marker date="1458741396199" expanded="true" signature="80:398" placeholder="..." />
-            <marker date="1458741396199" expanded="true" signature="1206:1453" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1458741396199" expanded="true" signature="2714:2773" placeholder="SELECT * FRO... patient" />
+            <marker date="1458741860695" expanded="true" signature="119:437" placeholder="..." />
+            <marker date="1458741860695" expanded="true" signature="1245:1492" placeholder="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1458741860695" expanded="true" signature="2753:2812" placeholder="SELECT * FRO... patient" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/TokenController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/TokenController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
@@ -1515,7 +1581,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/MainConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/gcm/GcmSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/config/MainConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
@@ -1525,7 +1599,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/SecurityConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/config/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
@@ -1533,22 +1607,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gcm/GcmSender.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/interfaces/PatientDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.15246637">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30493274">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

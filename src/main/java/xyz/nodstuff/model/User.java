@@ -1,4 +1,4 @@
-package model;
+package xyz.nodstuff.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

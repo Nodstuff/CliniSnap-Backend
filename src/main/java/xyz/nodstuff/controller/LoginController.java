@@ -1,8 +1,8 @@
-package controller;
+package xyz.nodstuff.controller;
 
-import crypto.AESCrypt;
 import lombok.extern.slf4j.Slf4j;
-import model.EncryptedToken;
+import xyz.nodstuff.crypto.AESCrypt;
+import xyz.nodstuff.model.EncryptedToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

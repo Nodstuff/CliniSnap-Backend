@@ -1,4 +1,4 @@
-package crypto;
+package xyz.nodstuff.crypto;
 
 import org.apache.commons.codec.binary.Base64;
 

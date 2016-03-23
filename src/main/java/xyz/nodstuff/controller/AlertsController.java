@@ -1,6 +1,6 @@
-package controller;
+package xyz.nodstuff.controller;
 
-import model.Alert;
+import xyz.nodstuff.model.Alert;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
