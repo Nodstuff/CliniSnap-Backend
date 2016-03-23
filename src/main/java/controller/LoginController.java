@@ -1,6 +1,8 @@
-package model;
+package controller;
 
 import crypto.AESCrypt;
+import lombok.extern.slf4j.Slf4j;
+import model.EncryptedToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,17 +18,19 @@ import java.util.UUID;
  * Created by tmeaney on 11/02/16.
  */
 @RestController
+@Slf4j(topic = "DB")
 public class LoginController {
 
     @Autowired
     private DataSource datasource;
-    
+
     private String testKey = "helloworld";
 
     @RequestMapping("/login")
     public EncryptedToken login() {
         UUID idOne = UUID.randomUUID();
         connect(idOne);
+        log.warn("This is a test");
         try {
             return new EncryptedToken(AESCrypt.encrypt(testKey,"testing"));
         } catch (GeneralSecurityException e) {
