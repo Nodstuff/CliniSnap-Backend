@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61e30efb-a7a7-44ec-8884-8b463ed4054c" name="Default" comment="remove .idea folder">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/TokenController.java" afterPath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/TokenController.java" />
+    <list default="true" id="61e30efb-a7a7-44ec-8884-8b463ed4054c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CliniSnap-Backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -101,26 +101,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dd3s7e6kmggak8.public.user" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/d8311ab/d8aa4324-1664-4ec4-855d-5001861e02cb/dd3s7e6kmggak8.public.user">
-          <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="PatientsController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/PatientsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <marker date="1458761097558" expanded="true" signature="119:437" placeholder="..." />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TokenController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/TokenController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TokenController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/TokenController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.514574">
-              <caret line="33" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+      <file leaf-file-name="dd3s7e6kmggak8.public.logging_event" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/d8311ab/d8aa4324-1664-4ec4-855d-5001861e02cb/dd3s7e6kmggak8.public.logging_event">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -141,26 +153,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dd3s7e6kmggak8.public.users" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/d8311ab/d8aa4324-1664-4ec4-855d-5001861e02cb/dd3s7e6kmggak8.public.users">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4764574">
+              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -202,7 +199,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+              <caret line="28" column="54" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -245,7 +242,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/model/SpringMVCInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/SpringMvcInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/gcmbackend.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/PushNotification.java" />
@@ -294,6 +290,7 @@
         <option value="dbtable:/d8311ab/d8aa4324-1664-4ec4-855d-5001861e02cb/dd3s7e6kmggak8.public.users" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/nodstuff/interfaces/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/PatientsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/TokenController.java" />
       </list>
@@ -1068,7 +1065,7 @@
       <workItem from="1458559395852" duration="11907000" />
       <workItem from="1458645782597" duration="14256000" />
       <workItem from="1458671482613" duration="6454000" />
-      <workItem from="1458736569270" duration="11084000" />
+      <workItem from="1458736569270" duration="14814000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1456308203355</created>
@@ -1088,11 +1085,17 @@
       <option name="project" value="LOCAL" />
       <updated>1456424063458</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add changes to controllers">
+      <created>1458761100663</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1458761100663</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112371000" />
+    <option name="totallyTimeSpent" value="116101000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1150,7 +1153,8 @@
     <MESSAGE value="First" />
     <MESSAGE value="add root mapping" />
     <MESSAGE value="add spring security" />
-    <option name="LAST_COMMIT_MESSAGE" value="add spring security" />
+    <MESSAGE value="add changes to controllers" />
+    <option name="LAST_COMMIT_MESSAGE" value="add changes to controllers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1178,9 +1182,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <marker date="1458741860695" expanded="true" signature="119:437" placeholder="..." />
-            <marker date="1458741860695" expanded="true" signature="1245:1492" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1458741860695" expanded="true" signature="2753:2812" placeholder="SELECT * FRO... patient" />
+            <marker date="1458761097558" expanded="true" signature="119:437" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1206,9 +1208,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <marker date="1458741860695" expanded="true" signature="119:437" placeholder="..." />
-            <marker date="1458741860695" expanded="true" signature="1245:1492" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1458741860695" expanded="true" signature="2753:2812" placeholder="SELECT * FRO... patient" />
+            <marker date="1458761097558" expanded="true" signature="119:437" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1234,9 +1234,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <marker date="1458741860695" expanded="true" signature="119:437" placeholder="..." />
-            <marker date="1458741860695" expanded="true" signature="1245:1492" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1458741860695" expanded="true" signature="2753:2812" placeholder="SELECT * FRO... patient" />
+            <marker date="1458761097558" expanded="true" signature="119:437" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1262,9 +1260,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <marker date="1458741860695" expanded="true" signature="119:437" placeholder="..." />
-            <marker date="1458741860695" expanded="true" signature="1245:1492" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1458741860695" expanded="true" signature="2753:2812" placeholder="SELECT * FRO... patient" />
+            <marker date="1458761097558" expanded="true" signature="119:437" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1290,9 +1286,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1458741860695" expanded="true" signature="119:437" placeholder="..." />
-            <marker date="1458741860695" expanded="true" signature="1245:1492" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1458741860695" expanded="true" signature="2753:2812" placeholder="SELECT * FRO... patient" />
+            <marker date="1458761097558" expanded="true" signature="119:437" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1326,9 +1320,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="87" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
           <folding>
-            <marker date="1458741860695" expanded="true" signature="119:437" placeholder="..." />
-            <marker date="1458741860695" expanded="true" signature="1245:1492" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1458741860695" expanded="true" signature="2753:2812" placeholder="SELECT * FRO... patient" />
+            <marker date="1458761097558" expanded="true" signature="119:437" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1489,18 +1481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/PatientsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="34" selection-start-line="22" selection-start-column="4" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <marker date="1458741860695" expanded="true" signature="119:437" placeholder="..." />
-            <marker date="1458741860695" expanded="true" signature="1245:1492" placeholder="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1458741860695" expanded="true" signature="2753:2812" placeholder="SELECT * FRO... patient" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/Patient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1554,19 +1534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/d8311ab/d8aa4324-1664-4ec4-855d-5001861e02cb/dd3s7e6kmggak8.public.logging_event">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/d8311ab/d8aa4324-1664-4ec4-855d-5001861e02cb/dd3s7e6kmggak8.public.patient">
       <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1603,26 +1570,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/PatientsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-          <folding />
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <marker date="1458761097558" expanded="true" signature="119:437" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <caret line="28" column="54" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/TokenController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.514574">
-          <caret line="33" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/d8311ab/d8aa4324-1664-4ec4-855d-5001861e02cb/dd3s7e6kmggak8.public.logging_event">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4764574">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
           <folding />
         </state>
       </provider>
