@@ -1,4 +1,4 @@
-package model;
+package controller;
 
 import model.Alert;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,4 +1,4 @@
-package model;
+package controller;
 
 import crypto.AESCrypt;
 import lombok.extern.slf4j.Slf4j;
