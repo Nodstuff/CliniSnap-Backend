@@ -11,12 +11,12 @@ import org.springframework.transaction.annotation.Transactional;
 public interface PatientDAO extends CrudRepository<Patient, Long> {
 
     /**
-     * Return the user having the passed email or null if no user is found.
+     * Return the Patient having the passed email or null if no user is found.
      *
-     * @param mrn the user mrn.
+     * @param mrn the patient mrn.
      */
     Patient findByMrn(String mrn);
     Patient findById(int id);
 
 
-} // class UserDao
+}
