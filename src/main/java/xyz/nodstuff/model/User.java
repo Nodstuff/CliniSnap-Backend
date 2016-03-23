@@ -21,8 +21,8 @@ public class User {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     private String username;
-    private String user_email;
-    private String user_pword;
+    private String useremail;
+    private String userpword;
     private String auth_token;
     private String push_token;
     private String created_by;
