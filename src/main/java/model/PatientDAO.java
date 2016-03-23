@@ -1,6 +1,5 @@
-package interfaces;
+package model;
 
-import model.Patient;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.transaction.annotation.Transactional;
 

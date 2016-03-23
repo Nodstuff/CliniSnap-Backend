@@ -1,4 +1,4 @@
-package gcm;
+package model;
 
 /**
  * Created by tmeaney on 07/03/16.
