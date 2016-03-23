@@ -1,4 +1,4 @@
-package model;
+package controller;
 
 import interfaces.PatientDAO;
 import model.Patient;

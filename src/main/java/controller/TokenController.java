@@ -1,4 +1,4 @@
-package model;
+package controller;
 
 import gcm.GcmSender;
 import org.springframework.web.bind.annotation.RequestMapping;

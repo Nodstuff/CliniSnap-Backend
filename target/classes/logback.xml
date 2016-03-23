@@ -1,0 +1,24 @@
+<configuration>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- encoders are assigned the type
+             ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="DB" class="ch.qos.logback.classic.db.DBAppender">
+        <connectionSource class="ch.qos.logback.core.db.DriverManagerConnectionSource">
+            <driverClass>org.postgresql.Driver</driverClass>
+            <url>jdbc:postgresql://ec2-107-20-148-211.compute-1.amazonaws.com:5432/dd3s7e6kmggak8?ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory</url>
+            <user>iltpegaqncjjob</user>
+            <password>f_Yqm9XwT67OUfD2Eohi_IQKhZ</password>
+        </connectionSource>
+    </appender>
+
+    <root level="WARN" >
+        <appender-ref ref="DB" />
+    </root>
+
+</configuration>
