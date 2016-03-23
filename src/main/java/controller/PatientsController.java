@@ -21,7 +21,7 @@ public class PatientsController {
     private DataSource datasource;
 
     @Autowired
-    PatientDAO patientDAO;
+    private PatientDAO patientDAO;
 
     @RequestMapping("/patient")
     public Patient patient(@RequestParam(value = "mrn", defaultValue = "") String mrn) {
