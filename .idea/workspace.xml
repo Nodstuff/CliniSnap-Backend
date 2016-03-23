@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61e30efb-a7a7-44ec-8884-8b463ed4054c" name="Default" comment="remove .idea folder">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_6.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_6.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/AlertsController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/AlertsController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/Application.java" afterPath="$PROJECT_DIR$/src/main/java/Application.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/GcmSender.java" afterPath="$PROJECT_DIR$/src/main/java/gcm/GcmSender.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/ImageController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/ImageController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/LoginController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/MainConfig.java" afterPath="$PROJECT_DIR$/src/main/java/config/MainConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/PatientDAO.java" afterPath="$PROJECT_DIR$/src/main/java/interfaces/PatientDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/PatientsController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/PatientsController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/SecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/config/SecurityConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/TokenController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/TokenController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CliniSnap-Backend.iml" afterPath="$PROJECT_DIR$/CliniSnap-Backend.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
     </list>
     <ignored path="CliniSnap-Backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -153,10 +135,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5782313">
+            <state vertical-scroll-proportion="0.0">
               <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
               <folding>
                 <marker date="1458738743062" expanded="true" signature="1169:1176" placeholder="INSERT INTO " />
@@ -180,11 +162,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.384615">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.06049822">
+              <caret line="2" column="70" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -263,8 +245,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d8aa4324-1664-4ec4-855d-5001861e02cb/console.sql" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/java/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
       </list>
     </option>
   </component>
@@ -859,7 +841,7 @@
       <workItem from="1458559395852" duration="11907000" />
       <workItem from="1458645782597" duration="14256000" />
       <workItem from="1458671482613" duration="6454000" />
-      <workItem from="1458736569270" duration="2174000" />
+      <workItem from="1458736569270" duration="2449000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1456308203355</created>
@@ -883,7 +865,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103461000" />
+    <option name="totallyTimeSpent" value="103736000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1390,17 +1372,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5782313">
+        <state vertical-scroll-proportion="0.0">
           <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
           <folding>
             <marker date="1458738743062" expanded="true" signature="1169:1176" placeholder="INSERT INTO " />
@@ -1410,6 +1384,14 @@
             <marker date="1458738743062" expanded="true" signature="1169:1243" placeholder="INSERT INTO \&quot;user\&quot;... " />
             <marker date="1458738743062" expanded="true" signature="1169:1244" placeholder="INSERT INTO \&quot;user\&quot;... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06049822">
+          <caret line="2" column="70" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>
