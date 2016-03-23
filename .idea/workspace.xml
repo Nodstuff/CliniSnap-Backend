@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61e30efb-a7a7-44ec-8884-8b463ed4054c" name="Default" comment="remove .idea folder">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Application.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/AlertsController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/AlertsController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/Application.java" afterPath="$PROJECT_DIR$/src/main/java/application/Application.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/GcmSender.java" afterPath="$PROJECT_DIR$/src/main/java/gcm/GcmSender.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/ImageController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/ImageController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/LoginController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/MainConfig.java" afterPath="$PROJECT_DIR$/src/main/java/config/MainConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/PatientDAO.java" afterPath="$PROJECT_DIR$/src/main/java/interfaces/PatientDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/PatientsController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/PatientsController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/SecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/config/SecurityConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/TokenController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/TokenController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/application/Application.java" afterPath="$PROJECT_DIR$/src/main/java/application/Application.java" />
     </list>
     <ignored path="CliniSnap-Backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -174,11 +163,11 @@
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/application/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15246637">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.30493274">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -272,10 +261,10 @@
         <option value="$PROJECT_DIR$/src/main/java/model/PatientDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/interfaces/PatientDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/application/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/TokenController.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/gcm/GcmSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/application/Application.java" />
       </list>
     </option>
   </component>
@@ -1000,7 +989,7 @@
       <workItem from="1458559395852" duration="11907000" />
       <workItem from="1458645782597" duration="14256000" />
       <workItem from="1458671482613" duration="6454000" />
-      <workItem from="1458736569270" duration="4906000" />
+      <workItem from="1458736569270" duration="5050000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1456308203355</created>
@@ -1024,7 +1013,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106193000" />
+    <option name="totallyTimeSpent" value="106337000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1554,11 +1543,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/application/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15246637">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.30493274">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
           </folding>
         </state>
       </provider>
