@@ -31,7 +31,7 @@ public class LoginController {
 
         User currentUser = userDAO.findByUsername(user.getUsername());
 
-        currentUser.setAuth_token(idOne.toString());
+        currentUser.setAuthtoken(idOne.toString());
 
         userDAO.save(currentUser);
 
