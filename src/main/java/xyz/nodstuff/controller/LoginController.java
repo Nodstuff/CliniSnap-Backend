@@ -20,9 +20,6 @@ import java.util.UUID;
 public class LoginController {
 
     @Autowired
-    private DataSource datasource;
-
-    @Autowired
     private UserDAO userDAO;
 
     @RequestMapping("/login")

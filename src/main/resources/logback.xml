@@ -17,7 +17,7 @@
         </connectionSource>
     </appender>
 
-    <root level="WARN" >
+    <root level="ERROR" >
         <appender-ref ref="DB" />
     </root>
 
