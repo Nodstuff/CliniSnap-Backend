@@ -4,6 +4,7 @@ package xyz.nodstuff.gcm;
  * Created by tmeaney on 07/03/16.
  */
 
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.IOUtils;
 import org.json.JSONObject;
 
@@ -28,7 +29,7 @@ import java.net.URL;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
+@Slf4j(topic = "DB")
 public class GcmSender {
 
     public static final String API_KEY = "AIzaSyATiCWVsn3Fs7qtA3J3b2yjERlJvfFMx4g";
@@ -63,6 +64,8 @@ public class GcmSender {
             System.err.println("*************"+resp);
 
         } catch (IOException e) {
+
+            log.error("Error in GcmSender: ",e);
 
         }
     }

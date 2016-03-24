@@ -16,4 +16,5 @@ public class Alert {
     private String sender;
     private String recipient;
     private String message;
+
 }

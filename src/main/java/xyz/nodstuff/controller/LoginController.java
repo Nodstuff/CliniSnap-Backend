@@ -1,6 +1,5 @@
 package xyz.nodstuff.controller;
 
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,14 +8,12 @@ import xyz.nodstuff.interfaces.UserDAO;
 import xyz.nodstuff.model.EncryptedToken;
 import xyz.nodstuff.model.User;
 
-import javax.sql.DataSource;
 import java.util.UUID;
 
 /**
  * Created by tmeaney on 11/02/16.
  */
 @RestController
-@Slf4j(topic = "DB")
 public class LoginController {
 
     @Autowired
@@ -28,10 +25,18 @@ public class LoginController {
 
         User currentUser = userDAO.findByUsername(user.getUsername());
 
-        currentUser.setAuthtoken(idOne.toString());
+        if(currentUser.getUserpword().equalsIgnoreCase(user.getUserpword())){
 
-        userDAO.save(currentUser);
+            currentUser.setAuthtoken(idOne.toString());
 
-        return new EncryptedToken(idOne.toString());
+            userDAO.save(currentUser);
+
+            return new EncryptedToken(idOne.toString());
+        }
+        else{
+
+            return null;
+        }
+
     }
 }
