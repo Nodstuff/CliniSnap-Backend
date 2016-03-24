@@ -60,7 +60,7 @@ public class GcmSender {
             // Read GCM response.
             InputStream inputStream = conn.getInputStream();
             String resp = IOUtils.toString(inputStream);
-            System.out.println("*************"+resp);
+            System.err.println("*************"+resp);
 
         } catch (IOException e) {
 
