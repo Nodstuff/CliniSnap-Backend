@@ -28,6 +28,6 @@ public class TokenController {
 
         //Todo add token to database here and store under user ID
         GcmSender sender = new GcmSender();
-        sender.sendMessage("Hello, World!",token);
+        sender.sendMessage("Hello, World!",user.getPushtoken());
     }
 }

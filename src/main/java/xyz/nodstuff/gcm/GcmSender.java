@@ -49,7 +49,7 @@ public class GcmSender {
             URL url = new URL("https://android.googleapis.com/gcm/send");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestProperty("Authorization", "key=" + API_KEY);
-            conn.setRequestProperty("Content-Type", "xyz/nodstuff/application/json");
+            conn.setRequestProperty("Content-Type", "application/json");
             conn.setRequestMethod("POST");
             conn.setDoOutput(true);
 
