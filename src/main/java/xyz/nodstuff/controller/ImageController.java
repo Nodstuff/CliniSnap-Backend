@@ -46,38 +46,7 @@ public class ImageController {
 
     @RequestMapping("/view-image")
     public String viewImage() throws IOException {
-        return "data:image/webp;base64,"+encoded;
+        //return "data:image/webp;base64,"+encoded;
+        return "index";
     }
-
-//    public void connect(String encodedImage, String mrn){
-//        String sql = "INSERT INTO \"image\"" +
-//                "(mrn, image, create_dttm, created_by, modif_by, modif_dttm) " +
-//                "VALUES (?, ?, ?, ?, ?, ?)";
-//
-//        Connection conn = null;
-//
-//        try {
-//            conn = datasource.getConnection();
-//            PreparedStatement ps = conn.prepareStatement(sql);
-//            ps.setString(1, mrn);
-//            ps.setString(2,encodedImage);
-//            ps.setTimestamp(3, new Timestamp(Calendar.getInstance().getTimeInMillis()));
-//            ps.setString(4, "Tom Meaney");
-//            ps.setString(5, "Tom Meaney");
-//            ps.setTimestamp(6, new Timestamp(Calendar.getInstance().getTimeInMillis()));
-//            ps.executeUpdate();
-//            ps.close();
-//
-//        } catch (SQLException e) {
-//            throw new RuntimeException(e);
-//
-//        } finally {
-//            if (conn != null) {
-//                try {
-//                    conn.close();
-//                } catch (SQLException e) {}
-//            }
-//        }
-//    }
-
 }
