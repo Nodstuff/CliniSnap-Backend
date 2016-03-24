@@ -10,8 +10,8 @@
       <schema id="2" parent="1" name="public">
         <object-id>2200</object-id>
         <comment>standard public schema</comment>
-        <introspection-state-number>21104519</introspection-state-number>
-        <introspection-timestamp>2016-03-23.19:01:32.998</introspection-timestamp>
+        <introspection-state-number>21596365</introspection-state-number>
+        <introspection-timestamp>2016-03-24.16:35:28.328</introspection-timestamp>
       </schema>
       <schema id="3" parent="1" name="pg_catalog">
         <object-id>11</object-id>
@@ -20002,8 +20002,8 @@
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="3553" parent="8" name="encoded_image">
-        <state-number>17112185</state-number>
+      <column id="3553" parent="8" name="image">
+        <state-number>21596365</state-number>
         <mandatory>1</mandatory>
         <data-type>text</data-type>
       </column>

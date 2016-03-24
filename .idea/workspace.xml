@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61e30efb-a7a7-44ec-8884-8b463ed4054c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/Image.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/ImageController.java" afterPath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/ImageController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/PatientsController.java" afterPath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/PatientsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/gcm/GcmSender.java" afterPath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/gcm/GcmSender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/Alert.java" afterPath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/Alert.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
     </list>
     <ignored path="CliniSnap-Backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1014,7 +1008,7 @@
       <workItem from="1458823685609" duration="204000" />
       <workItem from="1458824778239" duration="4048000" />
       <workItem from="1458833038249" duration="141000" />
-      <workItem from="1458833199988" duration="2983000" />
+      <workItem from="1458833199988" duration="3024000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1456308203355</created>
@@ -1044,11 +1038,18 @@
       <option name="project" value="LOCAL" />
       <updated>1458761100663</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add image class">
+      <created>1458838193379</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1458838193379</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125429000" />
+    <option name="totallyTimeSpent" value="125470000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1064,6 +1065,7 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.50213677" order="7" side_tool="true" content_ui="tabs" />
@@ -1086,7 +1088,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1107,7 +1108,8 @@
     <MESSAGE value="add root mapping" />
     <MESSAGE value="add spring security" />
     <MESSAGE value="add changes to controllers" />
-    <option name="LAST_COMMIT_MESSAGE" value="add changes to controllers" />
+    <MESSAGE value="Add image class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add image class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
