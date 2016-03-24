@@ -6,6 +6,7 @@ import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 import xyz.nodstuff.interfaces.ImageDAO;
 import xyz.nodstuff.model.Image;
 
@@ -45,7 +46,7 @@ public class ImageController {
     }
 
     @RequestMapping("/view-image")
-    public String viewImage() throws IOException {
+    public String viewImage(ModelAndView modelAndView) throws IOException {
         //return "data:image/webp;base64,"+encoded;
         return "index";
     }
