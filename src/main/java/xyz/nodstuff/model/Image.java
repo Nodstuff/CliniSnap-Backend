@@ -5,7 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import java.sql.Date;
+import java.sql.Timestamp;
 
 /**
  * Created by tmeaney on 24/03/16.
@@ -22,9 +22,9 @@ public class Image {
     private int id;
     private String mrn;
     private String image;
-    private Date create_dttm;
+    private Timestamp create_dttm;
     private String created_by;
     private String modif_by;
-    private Date modif_dttm;
+    private Timestamp modif_dttm;
 
 }

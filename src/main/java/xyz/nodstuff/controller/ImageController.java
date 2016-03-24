@@ -10,7 +10,7 @@ import xyz.nodstuff.interfaces.ImageDAO;
 import xyz.nodstuff.model.Image;
 
 import java.io.IOException;
-import java.sql.Date;
+import java.sql.Timestamp;
 
 /**
  * Created by tmeaney on 10/03/16.
@@ -26,14 +26,14 @@ public class ImageController {
 
     @RequestMapping("/image")
     public void saveImage(@RequestParam MultiValueMap<String, String> paramMap){
-        
+
         Image image = new Image();
         image.setImage(paramMap.getFirst("encodedImage"));
         image.setMrn(paramMap.getFirst("mrn"));
         image.setCreated_by("Tom Meaney");
         image.setModif_by("Tom Meaney");
-        image.setCreate_dttm(new Date(new DateTime().getMillis()));
-        image.setModif_dttm(new Date(new DateTime().getMillis()));
+        image.setCreate_dttm(new Timestamp(new DateTime().getMillis()));
+        image.setModif_dttm(new Timestamp(new DateTime().getMillis()));
 
         imageDAO.save(image);
     }
