@@ -17,11 +17,10 @@ public class ImageDisplayCounter {
     private ImageDAO imageDAO;
 
     @RequestMapping("/greeting")
-    public String greeting(@RequestParam(value="image", required=false, defaultValue="World") String name, Model model) {
+    public String greeting(@RequestParam(value="imageId") int id, Model model) {
 
-        String image = "data:image/jpeg;base64," + imageDAO.findById(1).getImage();
+        String image = "data:image/jpeg;base64," + imageDAO.findById(id).getImage();
 
-        model.addAttribute("name", name);
         model.addAttribute("image", image);
         return "greeting";
     }
