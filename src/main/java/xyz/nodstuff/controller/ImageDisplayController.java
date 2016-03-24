@@ -11,7 +11,7 @@ import xyz.nodstuff.interfaces.ImageDAO;
  * Created by tmeaney on 24/03/16.
  */
 @Controller
-public class ImageDisplayCounter {
+public class ImageDisplayController {
 
     @Autowired
     private ImageDAO imageDAO;
