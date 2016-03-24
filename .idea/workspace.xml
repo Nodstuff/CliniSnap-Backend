@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="61e30efb-a7a7-44ec-8884-8b463ed4054c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/ImageController.java" afterPath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/ImageController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/Image.java" afterPath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/Image.java" />
     </list>
     <ignored path="CliniSnap-Backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -125,11 +124,13 @@
       <file leaf-file-name="ImageController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/ImageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+            <state relative-caret-position="441">
+              <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1458839239401" expanded="true" signature="1442:1594" placeholder="INSERT INTO \&quot;image\&quot;... " />
+                <element signature="e#1330#1331#0" expanded="true" />
+                <element signature="e#1379#1380#0" expanded="true" />
+                <marker date="1458839714974" expanded="true" signature="1609:1761" placeholder="INSERT INTO \&quot;image\&quot;... " />
               </folding>
             </state>
           </provider>
@@ -1050,7 +1051,7 @@
       <workItem from="1458823685609" duration="204000" />
       <workItem from="1458824778239" duration="4048000" />
       <workItem from="1458833038249" duration="141000" />
-      <workItem from="1458833199988" duration="4043000" />
+      <workItem from="1458833199988" duration="4519000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1456308203355</created>
@@ -1091,7 +1092,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126489000" />
+    <option name="totallyTimeSpent" value="126965000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1582,6 +1583,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="dbDummy://dbtable:/d8311ab/d8aa4324-1664-4ec4-855d-5001861e02cb/dd3s7e6kmggak8.public.image">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1595,24 +1607,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/model/Image.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/ImageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+        <state relative-caret-position="441">
+          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1458839239401" expanded="true" signature="1442:1594" placeholder="INSERT INTO \&quot;image\&quot;... " />
+            <element signature="e#1330#1331#0" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+            <marker date="1458839714974" expanded="true" signature="1609:1761" placeholder="INSERT INTO \&quot;image\&quot;... " />
           </folding>
         </state>
       </provider>

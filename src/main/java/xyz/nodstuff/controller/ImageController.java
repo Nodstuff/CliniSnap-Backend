@@ -11,6 +11,7 @@ import xyz.nodstuff.model.Image;
 
 import java.io.IOException;
 import java.sql.Timestamp;
+import java.util.List;
 
 /**
  * Created by tmeaney on 10/03/16.
@@ -36,6 +37,11 @@ public class ImageController {
         image.setModif_dttm(new Timestamp(new DateTime().getMillis()));
 
         imageDAO.save(image);
+    }
+
+    @RequestMapping("/getimages")
+    public List<Image> getImages(@RequestParam String mrn){
+        return imageDAO.findAllByMrn(mrn);
     }
 
     @RequestMapping("/view-image")
