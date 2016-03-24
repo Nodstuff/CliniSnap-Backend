@@ -46,8 +46,8 @@ public class ImageController {
     }
 
     @RequestMapping("/view-image")
-    public String viewImage(ModelAndView modelAndView) throws IOException {
+    public ModelAndView viewImage() throws IOException {
         //return "data:image/webp;base64,"+encoded;
-        return "index";
+        return new ModelAndView("index").addObject("name", "Yashwant");
     }
 }
