@@ -25,9 +25,13 @@ public class TokenController {
         user.setPushtoken(token);
 
         userDAO.save(user);
+    }
 
+    @RequestMapping("/sendgcm")
+    public void sendGcm(@RequestParam(value = "token") String token){
         //Todo add token to database here and store under user ID
         GcmSender sender = new GcmSender();
-        sender.sendMessage("Hello, World!",user.getPushtoken());
+        sender.sendMessage("Hello, World!",token);
     }
+
 }
