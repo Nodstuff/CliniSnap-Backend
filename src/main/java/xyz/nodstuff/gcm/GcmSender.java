@@ -64,6 +64,8 @@ public class GcmSender {
             conn.setRequestMethod("POST");
             conn.setDoOutput(true);
 
+            log.error(jGcmData.toString());
+
             // Send GCM message content.
             OutputStream outputStream = conn.getOutputStream();
             outputStream.write(jGcmData.toString().getBytes());
