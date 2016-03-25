@@ -132,8 +132,8 @@
       <file leaf-file-name="GcmSender.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/gcm/GcmSender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+            <state relative-caret-position="238">
+              <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -1018,7 +1018,7 @@
       <workItem from="1458833038249" duration="141000" />
       <workItem from="1458833199988" duration="6735000" />
       <workItem from="1458847400749" duration="7371000" />
-      <workItem from="1458895139006" duration="8143000" />
+      <workItem from="1458895139006" duration="8312000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1456308203355</created>
@@ -1059,7 +1059,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144695000" />
+    <option name="totallyTimeSpent" value="144864000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1509,8 +1509,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/gcm/GcmSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+        <state relative-caret-position="238">
+          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
           <folding />
         </state>
       </provider>

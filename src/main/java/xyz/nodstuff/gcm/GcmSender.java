@@ -43,7 +43,7 @@ public class GcmSender {
 
             jNotification.put("body","Great match!");
             jNotification.put("title","Portugal Vs. Denmark");
-            jNotification.put("icon","");
+            jNotification.put("icon","largebonslogo");
 
 
             jData.put("message", message);
