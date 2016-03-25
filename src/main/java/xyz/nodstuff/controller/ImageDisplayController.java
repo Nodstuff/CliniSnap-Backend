@@ -22,7 +22,8 @@ public class ImageDisplayController {
         String image = "data:image/jpeg;base64," + imageDAO.findById(id).getImage();
 
         model.addAttribute("image", image);
-        return "greeting";
+
+        return "image-display";
     }
 
 }

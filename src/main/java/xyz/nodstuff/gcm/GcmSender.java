@@ -39,12 +39,22 @@ public class GcmSender {
             // Prepare JSON containing the GCM message content. What to send and where to send.
             JSONObject jGcmData = new JSONObject();
             JSONObject jData = new JSONObject();
+            JSONObject jNotification = new JSONObject();
+
+            jNotification.put("body","Great match!");
+            jNotification.put("title","Portugal Vs. Denmark");
+            jNotification.put("icon","largebonslogo");
+
+
             jData.put("message", message);
             // Where to send GCM message.
             jGcmData.put("to", token.trim());
 
             // What to send in GCM message.
             jGcmData.put("data", jData);
+
+            // Put notification in GCM Message
+            jGcmData.put("notification",jNotification);
 
             // Create connection to send GCM Message request.
             URL url = new URL("https://android.googleapis.com/gcm/send");
