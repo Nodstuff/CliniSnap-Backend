@@ -25,5 +25,4 @@ public class ImageDisplayController {
 
         return "image-display";
     }
-
 }
