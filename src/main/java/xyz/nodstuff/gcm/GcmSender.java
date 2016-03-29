@@ -41,9 +41,10 @@ public class GcmSender {
             JSONObject jData = new JSONObject();
             JSONObject jNotification = new JSONObject();
 
-            jNotification.put("body","Great match!");
-            jNotification.put("title","Portugal Vs. Denmark");
-            jNotification.put("icon","largebonslogo");
+            jNotification.put("body","Consult Required");
+            jNotification.put("title","Alert Received");
+            jNotification.put("icon","bons_logo_notification_icon");
+            jNotification.put("sound","default");
 
 
             jData.put("message", message);
