@@ -43,7 +43,7 @@ public class GcmSender {
 
             jNotification.put("body","Consult Required");
             jNotification.put("title","Alert Received");
-            jNotification.put("icon","bons_logo_notification_icon");
+            jNotification.put("icon","largebonslogo");
             jNotification.put("sound","default");
 
 
