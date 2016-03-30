@@ -6,11 +6,9 @@ import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.ModelAndView;
 import xyz.nodstuff.interfaces.ImageDAO;
 import xyz.nodstuff.model.Image;
 
-import java.io.IOException;
 import java.sql.Timestamp;
 import java.util.List;
 
@@ -22,9 +20,6 @@ public class ImageController {
 
     @Autowired
     private ImageDAO imageDAO;
-
-    private String encoded = "";
-    private String mrn = "";
 
     @RequestMapping("/image")
     public void saveImage(@RequestParam MultiValueMap<String, String> paramMap){
@@ -44,13 +39,4 @@ public class ImageController {
     public List<Image> getImages(@RequestParam String mrn){
         return imageDAO.findAllByMrn(mrn);
     }
-
-    @RequestMapping("/view-image")
-    public ModelAndView viewImage() throws IOException {
-        //return "data:image/webp;base64,"+encoded;
-        return new ModelAndView("index").addObject("name", "Yashwant");
-    }
-
-
-
 }
