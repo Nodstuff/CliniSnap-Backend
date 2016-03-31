@@ -39,5 +39,11 @@ public class ImageController {
     public List<Image> getImages(@RequestParam String mrn){
         return imageDAO.findAllByMrn(mrn);
     }
+
+
+    @RequestMapping("/getimage")
+    public Image getImage(@RequestParam int imageId){
+        return imageDAO.findById(imageId);
+    }
 }
 
