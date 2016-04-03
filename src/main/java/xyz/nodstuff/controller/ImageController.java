@@ -23,7 +23,7 @@ public class ImageController {
 
     @RequestMapping("/image")
     public void saveImage(@RequestBody Image image){
-        
+
         image.setCreated_by("Tom Meaney");
         image.setModif_by("Tom Meaney");
         image.setCreate_dttm(new Timestamp(new DateTime().getMillis()));
