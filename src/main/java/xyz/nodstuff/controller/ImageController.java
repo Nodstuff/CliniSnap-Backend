@@ -22,8 +22,12 @@ public class ImageController {
     private ImageDAO imageDAO;
 
     @RequestMapping("/image")
-    public void saveImage(@RequestBody Image image){
+    public void saveImage(@RequestBody Image uploadedImage){
 
+        Image image = new Image();
+        image.setMrn(uploadedImage.getMrn());
+        image.setImage(uploadedImage.getImage());
+        image.setThumbnail(uploadedImage.getThumbnail());
         image.setCreated_by("Tom Meaney");
         image.setModif_by("Tom Meaney");
         image.setCreate_dttm(new Timestamp(new DateTime().getMillis()));
