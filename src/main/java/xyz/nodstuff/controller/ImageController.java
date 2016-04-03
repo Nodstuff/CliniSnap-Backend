@@ -2,7 +2,7 @@ package xyz.nodstuff.controller;
 
 import org.joda.time.DateTime;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.util.MultiValueMap;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -22,11 +22,8 @@ public class ImageController {
     private ImageDAO imageDAO;
 
     @RequestMapping("/image")
-    public void saveImage(@RequestParam MultiValueMap<String, String> paramMap){
-
-        Image image = new Image();
-        image.setImage(paramMap.getFirst("encodedImage"));
-        image.setMrn(paramMap.getFirst("mrn"));
+    public void saveImage(@RequestBody Image image){
+        
         image.setCreated_by("Tom Meaney");
         image.setModif_by("Tom Meaney");
         image.setCreate_dttm(new Timestamp(new DateTime().getMillis()));

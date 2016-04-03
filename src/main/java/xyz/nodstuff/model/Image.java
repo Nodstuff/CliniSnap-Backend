@@ -22,6 +22,7 @@ public class Image {
     private int id;
     private String mrn;
     private String image;
+    private String thumbnail;
     private Timestamp create_dttm;
     private String created_by;
     private String modif_by;
