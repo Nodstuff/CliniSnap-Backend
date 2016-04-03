@@ -38,7 +38,12 @@ public class ImageController {
 
     @RequestMapping("/getimages")
     public List<Image> getImages(@RequestParam String mrn){
-        return imageDAO.findAllByMrn(mrn);
+        List<Image> images = imageDAO.findAllByMrn(mrn);
+
+        for(Image i : images){
+            i.setImage("");
+        }
+        return images;
     }
 
 
