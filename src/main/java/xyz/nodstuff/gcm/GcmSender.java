@@ -45,6 +45,7 @@ public class GcmSender {
             jNotification.put("title","Alert Received");
             jNotification.put("icon","largebonslogo");
             jNotification.put("sound","default");
+            jNotification.put("click_action","OPEN_ALERTS]");
 
 
             jData.put("message", message);

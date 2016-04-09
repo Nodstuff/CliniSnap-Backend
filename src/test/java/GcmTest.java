@@ -9,7 +9,6 @@ public class GcmTest {
     @Test
     public void testGcmSend(){
         GcmSender sender = new GcmSender();
-        sender.sendMessage("Test message","c82gbCvupk0:APA91bEXkXPKeatzwXNQHDYlOmzW-KwB3XqaQfTmkeclYb5Quvh9uqQarvI6whz1xQMewHVU5AJZ_X7PZYPMx6iXzKpscllrkX0huQS1RrYb1KlMlxyGrJHveCXRbmNT8nq3OMAwhxpY");
+        sender.sendMessage("Test message","d-NTO0tYQ3E:APA91bGf7v7sCdWvnr5CdWy5doODJL6oMbes4Gr9dJ8m0g0LFHYMVK7KtQMUmlr4fQesCJAppY2GiBPrTDa66RFEqJfE7nnQvn3ao42pX5n5ZYr4jITm5UlygRBqXe1LkuwD-iPajSQz");
     }
-
 }
