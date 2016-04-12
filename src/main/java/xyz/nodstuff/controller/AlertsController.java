@@ -19,11 +19,11 @@ public class AlertsController {
 
         List<Alert> alerts = new ArrayList<>();
 
-        alerts.add(new Alert("1","James Walsh","Jack Hanley","Are you in the library already?"));
-        alerts.add(new Alert("2","Jack Hanley","Tom Meaney","Food?"));
-        alerts.add(new Alert("3","Tom Meaney","James Walsh","What's the story pig?"));
-        alerts.add(new Alert("4","Jack Hanley","James Walsh","What time are you coming in??"));
-        alerts.add(new Alert("5","James Walsh","Tom Meaney","United are shit!"));
+        alerts.add(new Alert("1","Dr. Jim Welsh","Dr. Jack Hanley","Are you in the library already?"));
+        alerts.add(new Alert("2","Dr. Jack Hanley","Dr. Tom Meaney","Food?"));
+        alerts.add(new Alert("3","Dr. Tom Meaney","Dr. Jim Welsh","What's the story pig?"));
+        alerts.add(new Alert("4","Dr. Jack Hanley","Dr. Jim Welsh","What time are you coming in??"));
+        alerts.add(new Alert("5","Dr. James Walsh","Dr. Tom Meaney","United are shit!"));
 
         return alerts;
     }
