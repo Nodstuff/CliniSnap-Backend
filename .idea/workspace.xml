@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61e30efb-a7a7-44ec-8884-8b463ed4054c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/xyz/nodstuff/gcm/GcmSender.class" afterPath="$PROJECT_DIR$/target/classes/xyz/nodstuff/gcm/GcmSender.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/GcmTest.class" afterPath="$PROJECT_DIR$/target/test-classes/GcmTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/AlertsController.java" afterPath="$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/AlertsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/GcmTest.java" afterPath="$PROJECT_DIR$/src/test/java/GcmTest.java" />
     </list>
     <ignored path="CliniSnap-Backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -128,8 +124,8 @@
       <file leaf-file-name="AlertsController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/AlertsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="25" column="88" selection-start-line="25" selection-start-column="88" selection-end-line="25" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -912,7 +908,7 @@
       <workItem from="1460100989970" duration="643000" />
       <workItem from="1460224075771" duration="1167000" />
       <workItem from="1460374926006" duration="627000" />
-      <workItem from="1460385375998" duration="1703000" />
+      <workItem from="1460385375998" duration="1913000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1456308203355</created>
@@ -999,7 +995,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177655000" />
+    <option name="totallyTimeSpent" value="177865000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1497,8 +1493,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/nodstuff/controller/AlertsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="25" column="88" selection-start-line="25" selection-start-column="88" selection-end-line="25" selection-end-column="88" />
           <folding />
         </state>
       </provider>
