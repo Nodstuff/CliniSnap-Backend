@@ -1,6 +1,7 @@
 package xyz.nodstuff.controller;
 
 import org.joda.time.DateTime;
+import org.postgresql.util.PGTimestamp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,7 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 import xyz.nodstuff.interfaces.ImageDAO;
 import xyz.nodstuff.model.Image;
 
-import java.sql.Timestamp;
 import java.util.List;
 
 /**
@@ -30,8 +30,8 @@ public class ImageController {
         image.setThumbnail(uploadedImage.getThumbnail());
         image.setCreated_by("Tom Meaney");
         image.setModif_by("Tom Meaney");
-        image.setCreate_dttm(new Timestamp(new DateTime().getMillis()));
-        image.setModif_dttm(new Timestamp(new DateTime().getMillis()));
+        image.setCreate_dttm(new PGTimestamp(new DateTime().getMillis()));
+        image.setModif_dttm(new PGTimestamp(new DateTime().getMillis()));
 
         imageDAO.save(image);
     }

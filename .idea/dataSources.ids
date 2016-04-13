@@ -10,8 +10,8 @@
       <schema id="2" parent="1" name="public">
         <object-id>2200</object-id>
         <comment>standard public schema</comment>
-        <introspection-state-number>27477575</introspection-state-number>
-        <introspection-timestamp>2016-04-03.16:51:30.101</introspection-timestamp>
+        <introspection-state-number>33780750</introspection-state-number>
+        <introspection-timestamp>2016-04-13.17:06:15.296</introspection-timestamp>
       </schema>
       <schema id="3" parent="1" name="pg_catalog">
         <object-id>11</object-id>
@@ -37,7 +37,7 @@
       </sequence>
       <table id="8" parent="2" name="image">
         <object-id>1343059</object-id>
-        <state-number>27477575</state-number>
+        <state-number>33780750</state-number>
       </table>
       <table id="9" parent="2" name="logging_event">
         <object-id>1497195</object-id>
@@ -20008,9 +20008,9 @@
         <data-type>text</data-type>
       </column>
       <column id="3554" parent="8" name="create_dttm">
-        <state-number>15367108</state-number>
+        <state-number>33780599</state-number>
         <mandatory>1</mandatory>
-        <data-type>timestamp</data-type>
+        <data-type>timestamp with time zone</data-type>
       </column>
       <column id="3555" parent="8" name="created_by">
         <state-number>20043625</state-number>
@@ -20022,8 +20022,8 @@
         <data-type>varchar(255)</data-type>
       </column>
       <column id="3557" parent="8" name="modif_dttm">
-        <state-number>15367108</state-number>
-        <data-type>timestamp</data-type>
+        <state-number>33780750</state-number>
+        <data-type>timestamp with time zone</data-type>
       </column>
       <column id="3558" parent="8" name="thumbnail">
         <state-number>27477575</state-number>
