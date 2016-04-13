@@ -5,7 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import java.sql.Date;
+import java.sql.Timestamp;
 
 /**
  * Created by tmeaney on 24/02/16.
@@ -26,7 +26,7 @@ public class User {
     private String authtoken;
     private String pushtoken;
     private String created_by;
-    private Date create_dttm;
+    private Timestamp create_dttm;
     private String modif_by;
-    private Date modif_dttm;
+    private Timestamp modif_dttm;
 }
