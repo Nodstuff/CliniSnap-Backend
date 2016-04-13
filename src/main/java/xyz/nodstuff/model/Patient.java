@@ -24,7 +24,7 @@ public class Patient {
     private String mrn;
     private String fname;
     private String sname;
-    private Timestamp date_of_birth;
+    private Date date_of_birth;
     private String address1;
     private String address2;
     private String address3;
@@ -32,6 +32,6 @@ public class Patient {
     private String created_by;
     private Timestamp create_dttm;
     private String modif_by;
-    private Date modif_dttm;
+    private Timestamp modif_dttm;
 
 }
