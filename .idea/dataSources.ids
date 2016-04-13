@@ -10,8 +10,8 @@
       <schema id="2" parent="1" name="public">
         <object-id>2200</object-id>
         <comment>standard public schema</comment>
-        <introspection-state-number>33780750</introspection-state-number>
-        <introspection-timestamp>2016-04-13.17:06:15.296</introspection-timestamp>
+        <introspection-state-number>33792697</introspection-state-number>
+        <introspection-timestamp>2016-04-13.17:40:05.286</introspection-timestamp>
       </schema>
       <schema id="3" parent="1" name="pg_catalog">
         <object-id>11</object-id>
@@ -53,7 +53,7 @@
       </table>
       <table id="12" parent="2" name="patient">
         <object-id>1499494</object-id>
-        <state-number>21099656</state-number>
+        <state-number>33792697</state-number>
       </table>
       <table id="13" parent="2" name="users">
         <object-id>1207949</object-id>
@@ -20212,8 +20212,8 @@ mapped_key</columns>
         <data-type>varchar(255)</data-type>
       </column>
       <column id="3595" parent="12" name="create_dttm">
-        <state-number>21099656</state-number>
-        <data-type>date</data-type>
+        <state-number>33792615</state-number>
+        <data-type>timestamp</data-type>
       </column>
       <column id="3596" parent="12" name="created_by">
         <state-number>21099656</state-number>
@@ -20232,8 +20232,8 @@ mapped_key</columns>
         <data-type>varchar(255)</data-type>
       </column>
       <column id="3600" parent="12" name="modif_dttm">
-        <state-number>21099656</state-number>
-        <data-type>date</data-type>
+        <state-number>33792697</state-number>
+        <data-type>timestamp</data-type>
       </column>
       <column id="3601" parent="12" name="mrn">
         <state-number>21099656</state-number>
