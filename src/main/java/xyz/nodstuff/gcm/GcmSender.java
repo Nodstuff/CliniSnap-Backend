@@ -47,7 +47,6 @@ public class GcmSender {
             jNotification.put("sound","default");
             jNotification.put("click_action","OPEN_ALERTS]");
 
-
             jData.put("message", message);
             // Where to send GCM message.
             jGcmData.put("to", token.trim());
@@ -65,8 +64,6 @@ public class GcmSender {
             conn.setRequestProperty("Content-Type", "application/json");
             conn.setRequestMethod("POST");
             conn.setDoOutput(true);
-
-            log.error(jGcmData.toString());
 
             // Send GCM message content.
             OutputStream outputStream = conn.getOutputStream();

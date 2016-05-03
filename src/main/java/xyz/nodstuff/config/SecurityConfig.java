@@ -12,8 +12,9 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http
-                .csrf().disable()
+
+        http.csrf()
+                .disable()
                 .authorizeRequests()
 //                .antMatchers(HttpMethod.POST, "/").authenticated()
 //                .antMatchers(HttpMethod.PUT, "/**").authenticated()
